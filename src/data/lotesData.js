@@ -93,10 +93,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote5.JPG",
+            "/img/image-lote6.JPG",
+            "/img/image-lote7.JPG",
+            "/img/image-lote8.JPG",
         ],
     },
     {
@@ -121,10 +121,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote5.JPG",
-            "/public/img/image-lote6.JPG",
-            "/public/img/image-lote7.JPG",
-            "/public/img/image-lote8.JPG",
+            "/img/image-lote5.JPG",
+            "/img/image-lote6.JPG",
+            "/img/image-lote7.JPG",
+            "/img/image-lote8.JPG",
         ],
     },
     {
@@ -253,10 +253,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -322,10 +322,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -412,10 +412,10 @@ const lotesData = [
         height: "29px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -429,10 +429,10 @@ const lotesData = [
         height: "29px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 38,
@@ -509,10 +509,10 @@ const lotesData = [
         height: "29px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -526,10 +526,10 @@ const lotesData = [
         height: "29px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 46,
@@ -606,10 +606,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 53,
@@ -654,10 +654,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 57,
@@ -681,10 +681,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 59,
@@ -708,10 +708,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 61,
@@ -777,10 +777,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 67,
@@ -846,10 +846,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 73,
@@ -883,10 +883,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -963,10 +963,10 @@ const lotesData = [
         height: "29px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 83,
@@ -1033,10 +1033,10 @@ const lotesData = [
         height: "29px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -1050,10 +1050,10 @@ const lotesData = [
         height: "29px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -1077,10 +1077,10 @@ const lotesData = [
         height: "29px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -1125,10 +1125,10 @@ const lotesData = [
         height: "29px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote5.JPG",
-            "/public/img/image-lote6.JPG",
-            "/public/img/image-lote7.JPG",
-            "/public/img/image-lote8.JPG",
+            "/img/image-lote5.JPG",
+            "/img/image-lote6.JPG",
+            "/img/image-lote7.JPG",
+            "/img/image-lote8.JPG",
         ],
     },
     {
@@ -1173,10 +1173,10 @@ const lotesData = [
         height: "32.5px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -1242,10 +1242,10 @@ const lotesData = [
         height: "32.5px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -1259,10 +1259,10 @@ const lotesData = [
         height: "32.5px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 107,
@@ -1307,10 +1307,10 @@ const lotesData = [
         height: "32.5px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 111,
@@ -1366,10 +1366,10 @@ const lotesData = [
         height: "30px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -1393,10 +1393,10 @@ const lotesData = [
         height: "30px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -1410,10 +1410,10 @@ const lotesData = [
         height: "30px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 119,
@@ -1489,10 +1489,10 @@ const lotesData = [
         height: "30px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -1611,10 +1611,10 @@ const lotesData = [
         height: "28.8px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 138,
@@ -1711,10 +1711,10 @@ const lotesData = [
         height: "28.8px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -1749,10 +1749,10 @@ const lotesData = [
         height: "28.8px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 150,
@@ -1860,10 +1860,10 @@ const lotesData = [
         height: "28.8px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 160,
@@ -1876,10 +1876,10 @@ const lotesData = [
         height: "36.6px",
         shape: "corner-top-left",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2071,10 +2071,10 @@ const lotesData = [
         height: "31px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2088,10 +2088,10 @@ const lotesData = [
         height: "31px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     }, {
         id: 180,
@@ -2104,10 +2104,10 @@ const lotesData = [
         height: "31px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2154,10 +2154,10 @@ const lotesData = [
         height: "31px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote5.JPG",
-            "/public/img/image-lote6.JPG",
-            "/public/img/image-lote7.JPG",
-            "/public/img/image-lote8.JPG",
+            "/img/image-lote5.JPG",
+            "/img/image-lote6.JPG",
+            "/img/image-lote7.JPG",
+            "/img/image-lote8.JPG",
         ],
     },
     {
@@ -2193,10 +2193,10 @@ const lotesData = [
         height: "31.2px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2210,10 +2210,10 @@ const lotesData = [
         height: "31.2px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2359,10 +2359,10 @@ const lotesData = [
         height: "35.6px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2431,10 +2431,10 @@ const lotesData = [
         height: "35.6px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2547,10 +2547,10 @@ const lotesData = [
         height: "28px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2564,10 +2564,10 @@ const lotesData = [
         height: "28px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2724,10 +2724,10 @@ const lotesData = [
         height: "28px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2884,10 +2884,10 @@ const lotesData = [
         height: "37px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2923,10 +2923,10 @@ const lotesData = [
         height: "28.5px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -2984,10 +2984,10 @@ const lotesData = [
         height: "30px",
         shape: "lote-diagonal",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -3044,10 +3044,10 @@ const lotesData = [
         height: "63px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
@@ -3061,10 +3061,10 @@ const lotesData = [
         height: "63px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.JPG",
-            "/public/img/image-lote2.JPG",
-            "/public/img/image-lote3.JPG",
-            "/public/img/image-lote4.JPG",
+            "/img/image-lote1.JPG",
+            "/img/image-lote2.JPG",
+            "/img/image-lote3.JPG",
+            "/img/image-lote4.JPG",
         ],
     },
     {
