@@ -72,7 +72,7 @@ const PlanoInteractivoLoteo = () => {
                 <div className="lote-modal-overlay" onClick={closeModal}>
                     <div className="lote-modal" onClick={(e) => e.stopPropagation()}>
                         <button className="lote-modal__close" onClick={closeModal}>✕</button>
-                        <img src="src/assets/logo.png" alt="Logo" className="lote-modal__logo" />
+                        <img src="/img/logo.png" alt="Logo" className="lote-modal__logo" />
                         <h4>Lote Nº {selectedLote.numero}</h4>
                         <p>Medida: {selectedLote.medida}</p>
                         <p>Estado: {selectedLote.estado === "disponible" ? "Disponible" : "Vendido"}</p>

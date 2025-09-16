@@ -1410,10 +1410,10 @@ const lotesData = [
         height: "30px",
         shape: "rectangle",
         fotos: [
-            "/public/img/image-lote1.jpg",
-            "/public/img/image-lote2.jpg",
-            "/public/img/image-lote3.jpg",
-            "/public/img/image-lote4.jpg",
+            "/img/image-lote1.jpg",
+            "/img/image-lote2.jpg",
+            "/img/image-lote3.jpg",
+            "/img/image-lote4.jpg",
         ],
     }, {
         id: 119,
@@ -1462,6 +1462,7 @@ const lotesData = [
         numero: 123,
         medida: "300 m²",
         estado: "vendido",
+        top: "24%",
         left: "48.45%",
         width: "56px",
         height: "30px",
