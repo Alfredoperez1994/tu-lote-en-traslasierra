@@ -40,7 +40,7 @@ const StickyNavbarComponent = () => {
             <div className="navbar__center">
                 {(isScrolled || menuOpen) && (
                     <img
-                        src="/src/assets/tu-lote-letras.png"
+                        src="/img/tu-lote-letras.png"
                         alt="Logo"
                         className="navbar__logo"
                     />

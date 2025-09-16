@@ -69,13 +69,13 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.4);
     border: none;
-    color: #fff;
+    color: #10df1a;
     font-size: 2rem;
     padding: 0.3rem 0.6rem;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 100%;
     transition: background 0.2s ease;
 }
 
@@ -85,6 +85,7 @@
 
 .carousel-btn.prev {
     left: 10px;
+
 }
 
 .carousel-btn.next {

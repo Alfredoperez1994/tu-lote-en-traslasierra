@@ -9,27 +9,27 @@ const LoteoHeaderComponent = () => {
     // Array de imágenes con texto opcional arriba
     const slides = [
         {
-            src: "/src/assets/image-villadolores.jpeg",
+            src: "/img/image-villadolores.jpeg",
             alt: "Villa Dolores naturaleza",
             caption: "Naturaleza y tranquilidad"
         },
         {
-            src: "/src/assets/Hospital-Villa-Dolores.jpg",
+            src: "/img/Hospital-Villa-Dolores.jpg",
             alt: "Vista a las montañas",
             caption: "Hospital Regional"
         },
         {
-            src: "/src/assets/terminal-de-villa-dolores.jpg",
+            src: "/img/villa-dolores4.jpg",
             alt: "Ríos de la zona",
             caption: "Terminal de Villa Dolores"
         },
         {
-            src: "/src/assets/villa-dolores2.png",
+            src: "/img/villa-dolores2.png",
             alt: "Centro de Villa Dolores",
             caption: "Conectividad y servicios"
         },
         {
-            src: "/src/assets/villa-dolores5.jpg",
+            src: "/img/villa-dolores5.jpg",
             alt: "Terrenos en venta",
             caption: "Escuela Primaria"
         }

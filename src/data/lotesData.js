@@ -22,10 +22,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -35,20 +35,20 @@ const lotesData = [
         estado: "vendido",
         top: "13.3%",
         left: "2.9%",
-        width: "53px",      
-        height: "29.3px",        
-        shape: "rectangle"       
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 4,
         numero: 4,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "18.7%", 
-        left: "2.9%", 
-        width: "53px",        
-        height: "29.3px",       
-        shape: "rectangle"       
+        estado: "vendido",
+        top: "18.7%",
+        left: "2.9%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 5,
@@ -93,10 +93,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -121,10 +121,10 @@ const lotesData = [
         height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote5.jpg",
-            "/src/assets/image-lote6.jpg",
-            "/src/assets/image-lote7.jpg",
-            "/src/assets/image-lote8.jpg",
+            "/public/img/image-lote5.jpg",
+            "/public/img/image-lote6.jpg",
+            "/public/img/image-lote7.jpg",
+            "/public/img/image-lote8.jpg",
         ],
     },
     {
@@ -155,19 +155,19 @@ const lotesData = [
         estado: "vendido",
         top: "24.1%",
         left: "7%",
-        width: "53px",      
-        height: "29.3px",      
-        shape: "rectangle"        
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 14,
         numero: 14,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "29.6%", 
-        left: "7%", 
-        width: "53px",    
-        height: "29.3px",        
-        shape: "rectangle"      
+        estado: "vendido",
+        top: "29.6%",
+        left: "7%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 15,
@@ -176,19 +176,19 @@ const lotesData = [
         estado: "vendido",
         top: "35.1%",
         left: "7%",
-        width: "53px",        
-        height: "29.3px",  
-        shape: "rectangle"        
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 16,
         numero: 16,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "40.5%", 
-        left: "7%", 
-        width: "53px",        
-        height: "29.3px",      
-        shape: "rectangle"      
+        estado: "vendido",
+        top: "40.5%",
+        left: "7%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 17,
@@ -197,19 +197,19 @@ const lotesData = [
         estado: "vendido",
         top: "2.4%",
         left: "13.3%",
-        width: "53px",         
-        height: "29.3px",      
-        shape: "rectangle"       
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 18,
         numero: 18,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "7.8%", 
-        left: "13.3%", 
-        width: "53px",      
-        height: "29.3px",      
-        shape: "rectangle"        
+        estado: "vendido",
+        top: "7.8%",
+        left: "13.3%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 19,
@@ -218,19 +218,19 @@ const lotesData = [
         estado: "vendido",
         top: "13.3%",
         left: "13.3%",
-        width: "53px",        
-        height: "29.3px",      
-        shape: "rectangle"       
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 20,
         numero: 20,
         medida: "510.00m²",
         estado: "vendido",
-        top: "18.8%", 
-        left: "13.3%", 
-        width: "53px",       
-        height: "29.3px",      
-        shape: "rectangle"       
+        top: "18.8%",
+        left: "13.3%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 21,
@@ -239,24 +239,24 @@ const lotesData = [
         estado: "vendido",
         top: "24.1%",
         left: "13.3%",
-        width: "53px",      
-        height: "29.3px",       
-        shape: "rectangle"       
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 22,
         numero: 22,
         medida: "510.00m²",
-        estado: "disponible", 
+        estado: "disponible",
         top: "29.5%",
-        left: "13.3%", 
-        width: "53px",         
-        height: "29.3px",        
+        left: "13.3%",
+        width: "53px",
+        height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -266,19 +266,19 @@ const lotesData = [
         estado: "vendido",
         top: "35%",
         left: "13.3%",
-        width: "53px",        
-        height: "29.3px",     
-        shape: "rectangle"       
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 24,
         numero: 24,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "40.5%", 
-        left: "13.3%", 
-        width: "53px",        
-        height: "29.3px",      
-        shape: "rectangle"        
+        estado: "vendido",
+        top: "40.5%",
+        left: "13.3%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 25,
@@ -287,19 +287,19 @@ const lotesData = [
         estado: "vendido",
         top: "2.4%",
         left: "17.5%",
-        width: "53px",       
-        height: "29.3px",        
-        shape: "rectangle"        
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 26,
         numero: 26,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "7.8%", 
+        estado: "vendido",
+        top: "7.8%",
         left: "17.5%",
-        width: "53px",        
-        height: "29.3px",       
-        shape: "rectangle"       
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 27,
@@ -308,24 +308,24 @@ const lotesData = [
         estado: "vendido",
         top: "13.2%",
         left: "17.5%",
-        width: "53px",        
-        height: "29.3px",     
-        shape: "rectangle"       
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 28,
         numero: 28,
         medida: "510.00m²",
-        estado: "disponible", 
-        top: "18.8%", 
-        left: "17.5%", 
-        width: "53px",        
-        height: "29.3px",        
+        estado: "disponible",
+        top: "18.8%",
+        left: "17.5%",
+        width: "53px",
+        height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -335,19 +335,19 @@ const lotesData = [
         estado: "vendido",
         top: "24.1%",
         left: "17.5%",
-        width: "53px",        
-        height: "29.3px",        
-        shape: "rectangle"       
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 30,
         numero: 30,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "29.5%", 
-        left: "17.5%", 
-        width: "53px",    
-        height: "29.3px",        
-        shape: "rectangle"        
+        estado: "vendido",
+        top: "29.5%",
+        left: "17.5%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 31,
@@ -356,19 +356,19 @@ const lotesData = [
         estado: "vendido",
         top: "35%",
         left: "17.5%",
-        width: "53px",     
-        height: "29.3px",      
-        shape: "rectangle"      
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 32,
         numero: 32,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "40.4%", 
-        left: "17.5%", 
-        width: "53px",         
-        height: "29.3px",        
-        shape: "rectangle"        
+        estado: "vendido",
+        top: "40.4%",
+        left: "17.5%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 33,
@@ -377,19 +377,19 @@ const lotesData = [
         estado: "vendido",
         top: "2.3%",
         left: "23.8%",
-        width: "48px",        
-        height: "29px",        
-        shape: "rectangle"       
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     }, {
         id: 34,
         numero: 34,
         medida: "300 m²",
-        estado: "vendido", 
+        estado: "vendido",
         top: "8%",
         left: "23.8%",
-        width: "48px",        
-        height: "29px",     
-        shape: "rectangle"       
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 35,
@@ -398,24 +398,24 @@ const lotesData = [
         estado: "vendido",
         top: "13.3%",
         left: "23.8%",
-        width: "48px",        
-        height: "29px",       
-        shape: "rectangle"       
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     }, {
         id: 36,
         numero: 36,
         medida: "300 m²",
-        estado: "disponible", 
+        estado: "disponible",
         top: "18.8%",
-        left: "23.8%", 
-        width: "48px",      
-        height: "29px",        
+        left: "23.8%",
+        width: "48px",
+        height: "29px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -425,25 +425,25 @@ const lotesData = [
         estado: "disponible",
         top: "24.1%",
         left: "23.8%",
-        width: "48px",        
-        height: "29px",        
+        width: "48px",
+        height: "29px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 38,
         numero: 38,
         medida: "300 m²",
-        estado: "vendido", 
-        top: "29.4%", 
-        left: "23.8%", 
-        width: "48px",        
-        height: "29px",        
-        shape: "rectangle"      
+        estado: "vendido",
+        top: "29.4%",
+        left: "23.8%",
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 39,
@@ -452,19 +452,19 @@ const lotesData = [
         estado: "vendido",
         top: "35%",
         left: "23.8%",
-        width: "48px",        
-        height: "29px",       
-        shape: "rectangle"        
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     }, {
         id: 40,
         numero: 40,
         medida: "300 m²",
-        estado: "vendido", 
-        top: "40.5%", 
-        left: "23.8%", 
-        width: "48px",        
-        height: "29px",       
-        shape: "rectangle"       
+        estado: "vendido",
+        top: "40.5%",
+        left: "23.8%",
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 41,
@@ -473,20 +473,20 @@ const lotesData = [
         estado: "vendido",
         top: "2.3%",
         left: "27.6%",
-        width: "48px",       
-        height: "29px",        
-        shape: "rectangle"       
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 42,
         numero: 42,
         medida: "300 m²",
-        estado: "vendido", 
-        top: "7.8%", 
-        left: "27.6%", 
-        width: "48px",        
-        height: "29px",      
-        shape: "rectangle"       
+        estado: "vendido",
+        top: "7.8%",
+        left: "27.6%",
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 43,
@@ -495,24 +495,24 @@ const lotesData = [
         estado: "vendido",
         top: "13.2%",
         left: "27.6%",
-        width: "48px",        
-        height: "29px",       
-        shape: "rectangle"       
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     }, {
         id: 44,
         numero: 44,
         medida: "300 m²",
-        estado: "disponible", 
-        top: "18.7%", 
-        left: "27.6%", 
-        width: "48px",       
-        height: "29px",      
+        estado: "disponible",
+        top: "18.7%",
+        left: "27.6%",
+        width: "48px",
+        height: "29px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -522,25 +522,25 @@ const lotesData = [
         estado: "disponible",
         top: "24.1%",
         left: "27.6%",
-        width: "48px",         
-        height: "29px",        
+        width: "48px",
+        height: "29px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 46,
         numero: 46,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "29.6%", // posición vertical sobre la imagen
-        left: "27.6%", // posición horizontal sobre la imagen
-        width: "48px",         // ✅ nuevo
-        height: "29px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "29.6%",
+        left: "27.6%",
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 47,
@@ -549,30 +549,30 @@ const lotesData = [
         estado: "vendido",
         top: "35%",
         left: "27.6%",
-        width: "48px",         // ✅ nuevo
-        height: "29px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     }, {
         id: 48,
         numero: 48,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "40.5%", // posición vertical sobre la imagen
-        left: "27.6%", // posición horizontal sobre la imagen
-        width: "48px",         // ✅ nuevo
-        height: "29px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "40.5%",
+        left: "27.6%",
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 49,
         numero: 49,
         medida: "510.00m²",
-        estado: "vendido", // o "vendido"
-        top: "51.1%", // posición vertical sobre la imagen
-        left: "7.1%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "29.3px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "51.1%",
+        left: "7.1%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 50,
@@ -581,19 +581,19 @@ const lotesData = [
         estado: "vendido",
         top: "56.6%",
         left: "7.1%",
-        width: "53px",         // ✅ nuevo
-        height: "29.3px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 51,
         numero: 51,
         medida: "510.00m²",
-        estado: "vendido", // o "vendido"
-        top: "62%", // posición vertical sobre la imagen
-        left: "7.1%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "29.3px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "62%",
+        left: "7.1%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 52,
@@ -602,25 +602,25 @@ const lotesData = [
         estado: "disponible",
         top: "67.5%",
         left: "7.1%",
-        width: "53px",         // ✅ nuevo
-        height: "29.3px",        // ✅ nuevo
+        width: "53px",
+        height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 53,
         numero: 53,
         medida: "510.00m²",
-        estado: "vendido", // o "vendido"
-        top: "72.9%", // posición vertical sobre la imagen
-        left: "7.1%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "29.3px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "72.9%",
+        left: "7.1%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 54,
@@ -629,19 +629,19 @@ const lotesData = [
         estado: "vendido",
         top: "78.3%",
         left: "7.1%",
-        width: "53px",         // ✅ nuevo
-        height: "29.3px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 55,
         numero: 55,
         medida: "510.00m²",
-        estado: "vendido", // o "vendido"
-        top: "83.9%", // posición vertical sobre la imagen
-        left: "7.1%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "29.3px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "83.9%",
+        left: "7.1%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 56,
@@ -650,25 +650,25 @@ const lotesData = [
         estado: "disponible",
         top: "89.2%",
         left: "7.1%",
-        width: "53px",         // ✅ nuevo
-        height: "29.3px",        // ✅ nuevo
+        width: "53px",
+        height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 57,
         numero: 57,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "51.1%", 
-        left: "2.9%", 
-        width: "53px",        
-        height: "29.3px",        
-        shape: "rectangle"       
+        estado: "vendido",
+        top: "51.1%",
+        left: "2.9%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 58,
@@ -677,25 +677,25 @@ const lotesData = [
         estado: "disponible",
         top: "56.6%",
         left: "2.9%",
-        width: "52.5px",     
-        height: "29.3px",       
+        width: "52.5px",
+        height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 59,
         numero: 59,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "62%", 
-        left: "2.9%", 
-        width: "53px",       
-        height: "29.3px",      
-        shape: "rectangle"       
+        estado: "vendido",
+        top: "62%",
+        left: "2.9%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 60,
@@ -704,25 +704,25 @@ const lotesData = [
         estado: "disponible",
         top: "67.4%",
         left: "2.9%",
-        width: "53px",        
-        height: "29.3px",        
+        width: "53px",
+        height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 61,
         numero: 61,
         medida: "510.00m²",
-        estado: "vendido", 
+        estado: "vendido",
         top: "72.8%",
-        left: "2.9%", 
-        width: "53px",        
-        height: "29.3px",      
-        shape: "rectangle"        
+        left: "2.9%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 62,
@@ -731,19 +731,19 @@ const lotesData = [
         estado: "vendido",
         top: "78.3%",
         left: "2.9%",
-        width: "53px",      
-        height: "29.3px",     
-        shape: "rectangle"      
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 63,
         numero: 63,
         medida: "510.00m²",
-        estado: "vendido", 
+        estado: "vendido",
         top: "83.7%",
-        left: "2.9%", 
-        width: "53px",      
-        height: "29.3px",     
-        shape: "rectangle"      
+        left: "2.9%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 64,
@@ -752,19 +752,19 @@ const lotesData = [
         estado: "vendido",
         top: "89.2%",
         left: "2.9%",
-        width: "53px",        
-        height: "29.3px",     
-        shape: "rectangle"        
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 65,
         numero: 65,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "51%", 
-        left: "17.5%", 
-        width: "53px",    
-        height: "29.3px",      
-        shape: "rectangle"        
+        estado: "vendido",
+        top: "51%",
+        left: "17.5%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 66,
@@ -773,25 +773,25 @@ const lotesData = [
         estado: "disponible",
         top: "56.5%",
         left: "17.5%",
-        width: "53px",        
-        height: "29.3px",       
+        width: "53px",
+        height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 67,
         numero: 67,
         medida: "510.00m²",
         estado: "vendido",
-        top: "62%", 
+        top: "62%",
         left: "17.5%",
-        width: "53px",      
-        height: "29.3px",        
-        shape: "rectangle"      
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 68,
@@ -800,19 +800,19 @@ const lotesData = [
         estado: "vendido",
         top: "67.4%",
         left: "17.5%",
-        width: "53px",      
-        height: "29.3px",       
-        shape: "rectangle"      
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 69,
         numero: 69,
         medida: "510.00m²",
         estado: "vendido",
-        top: "72.9%", 
+        top: "72.9%",
         left: "17.5%",
-        width: "53px",      
-        height: "29.3px",       
-        shape: "rectangle"      
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 70,
@@ -821,19 +821,19 @@ const lotesData = [
         estado: "vendido",
         top: "78.3%",
         left: "17.5%",
-        width: "53px",       
-        height: "29.3px",       
-        shape: "rectangle"      
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 71,
         numero: 71,
         medida: "510.00m²",
-        estado: "vendido", 
+        estado: "vendido",
         top: "83.8%",
-        left: "17.5%", 
-        width: "53px",        
-        height: "29.3px",     
-        shape: "rectangle"       
+        left: "17.5%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 72,
@@ -842,25 +842,25 @@ const lotesData = [
         estado: "disponible",
         top: "89.2%",
         left: "17.5%",
-        width: "53px",       
-        height: "29.3px",      
+        width: "53px",
+        height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 73,
         numero: 73,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "51%", 
+        estado: "vendido",
+        top: "51%",
         left: "13.4%",
-        width: "53px",       
-        height: "29.3px",     
-        shape: "rectangle"       
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 74,
@@ -869,24 +869,24 @@ const lotesData = [
         estado: "vendido",
         top: "56.5%",
         left: "13.4%",
-        width: "53px",        
-        height: "29.3px",       
-        shape: "rectangle"      
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 75,
         numero: 75,
         medida: "510.00m²",
-        estado: "disponible", 
-        top: "61.9%", 
-        left: "13.4%", 
-        width: "53px",        
-        height: "29.3px",       
+        estado: "disponible",
+        top: "61.9%",
+        left: "13.4%",
+        width: "53px",
+        height: "29.3px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -896,19 +896,19 @@ const lotesData = [
         estado: "vendido",
         top: "67.4%",
         left: "13.4%",
-        width: "53px",       
-        height: "29.3px",      
-        shape: "rectangle"     
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 77,
         numero: 77,
         medida: "510.00m²",
-        estado: "vendido", 
-        top: "72.9%", 
+        estado: "vendido",
+        top: "72.9%",
         left: "13.4%",
-        width: "53px",       
-        height: "29.3px",      
-        shape: "rectangle"     
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 78,
@@ -917,19 +917,19 @@ const lotesData = [
         estado: "vendido",
         top: "78.3%",
         left: "13.4%",
-        width: "53px",       
-        height: "29.3px",      
-        shape: "rectangle"       
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 79,
         numero: 79,
         medida: "510.00m²",
         estado: "vendido",
         top: "83.7%",
-        left: "13.4%", 
-        width: "53px",       
-        height: "29.3px",      
-        shape: "rectangle"      
+        left: "13.4%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     },
     {
         id: 80,
@@ -938,19 +938,19 @@ const lotesData = [
         estado: "vendido",
         top: "89.2%",
         left: "13.4%",
-        width: "53px",       
-        height: "29.3px",     
-        shape: "rectangle"      
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
     }, {
         id: 81,
         numero: 81,
         medida: "300 m²",
-        estado: "vendido", 
-        top: "51%", 
-        left: "23.8%", 
-        width: "48px",      
-        height: "29px",      
-        shape: "rectangle"       
+        estado: "vendido",
+        top: "51%",
+        left: "23.8%",
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 82,
@@ -959,25 +959,25 @@ const lotesData = [
         estado: "disponible",
         top: "56.5%",
         left: "23.8%",
-        width: "48px",        
-        height: "29px",        
+        width: "48px",
+        height: "29px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 83,
         numero: 83,
         medida: "300 m²",
-        estado: "vendido", 
-        top: "61.9%", 
-        left: "23.8%", 
-        width: "48px",     
-        height: "29px",      
-        shape: "rectangle"      
+        estado: "vendido",
+        top: "61.9%",
+        left: "23.8%",
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 84,
@@ -986,19 +986,19 @@ const lotesData = [
         estado: "vendido",
         top: "67.4%",
         left: "23.8%",
-        width: "48px",        
-        height: "29px",        
-        shape: "rectangle"    
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     }, {
         id: 85,
         numero: 85,
         medida: "300 m²",
-        estado: "vendido", 
-        top: "72.8%", 
-        left: "23.8%", 
-        width: "48px",        
-        height: "29px",      
-        shape: "rectangle"     
+        estado: "vendido",
+        top: "72.8%",
+        left: "23.8%",
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 86,
@@ -1007,20 +1007,20 @@ const lotesData = [
         estado: "vendido",
         top: "78.3%",
         left: "23.8%",
-        width: "48px",         
-        height: "29px",       
-        shape: "rectangle"      
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 87,
         numero: 87,
         medida: "300 m²",
-        estado: "vendido", 
-        top: "83.7%", 
+        estado: "vendido",
+        top: "83.7%",
         left: "23.8%",
-        width: "48px",       
-        height: "29px",       
-        shape: "rectangle"    
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 88,
@@ -1029,14 +1029,14 @@ const lotesData = [
         estado: "disponible",
         top: "89.2%",
         left: "23.8%",
-        width: "48px",    
-        height: "29px",     
+        width: "48px",
+        height: "29px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -1044,16 +1044,16 @@ const lotesData = [
         numero: 89,
         medida: "300 m²",
         estado: "disponible",
-        top: "51%", 
-        left: "27.6%", 
-        width: "48px",        
-        height: "29px",       
+        top: "51%",
+        left: "27.6%",
+        width: "48px",
+        height: "29px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -1063,24 +1063,24 @@ const lotesData = [
         estado: "vendido",
         top: "56.48%",
         left: "27.6%",
-        width: "48px",        
-        height: "29px",       
-        shape: "rectangle"       
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     }, {
         id: 91,
         numero: 91,
         medida: "300 m²",
-        estado: "disponible", 
-        top: "61.9%", 
-        left: "27.6%", 
-        width: "48px",        
-        height: "29px",        
+        estado: "disponible",
+        top: "61.9%",
+        left: "27.6%",
+        width: "48px",
+        height: "29px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -1090,19 +1090,19 @@ const lotesData = [
         estado: "vendido",
         top: "67.4%",
         left: "27.6%",
-        width: "48px",      
-        height: "29px",       
-        shape: "rectangle"        
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     }, {
         id: 93,
         numero: 93,
         medida: "300 m²",
-        estado: "vendido", 
-        top: "72.9%", 
-        left: "27.6%", 
-        width: "48px",      
-        height: "29px",        
-        shape: "rectangle"       
+        estado: "vendido",
+        top: "72.9%",
+        left: "27.6%",
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     },
     {
         id: 94,
@@ -1111,24 +1111,24 @@ const lotesData = [
         estado: "vendido",
         top: "78.3%",
         left: "27.6%",
-        width: "48px",     
-        height: "29px",      
-        shape: "rectangle"      
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     }, {
         id: 95,
         numero: 95,
         medida: "300 m²",
-        estado: "disponible", 
-        top: "83.7%", 
-        left: "27.6%", 
-        width: "48px",        
-        height: "29px",        
+        estado: "disponible",
+        top: "83.7%",
+        left: "27.6%",
+        width: "48px",
+        height: "29px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote5.jpg",
-            "/src/assets/image-lote6.jpg",
-            "/src/assets/image-lote7.jpg",
-            "/src/assets/image-lote8.jpg",
+            "/public/img/image-lote5.jpg",
+            "/public/img/image-lote6.jpg",
+            "/public/img/image-lote7.jpg",
+            "/public/img/image-lote8.jpg",
         ],
     },
     {
@@ -1138,19 +1138,19 @@ const lotesData = [
         estado: "vendido",
         top: "89.2%",
         left: "27.6%",
-        width: "48px",         // ✅ nuevo
-        height: "29px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "48px",
+        height: "29px",
+        shape: "rectangle"
     }, {
         id: 97,
         numero: 97,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "2.38%", // posición vertical sobre la imagen
-        left: "34.8%", // posición horizontal sobre la imagen
-        width: "43.95px",         // ✅ nuevo
-        height: "33px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "2.38%",
+        left: "34.8%",
+        width: "43.95px",
+        height: "33px",
+        shape: "rectangle"
     },
     {
         id: 98,
@@ -1159,24 +1159,24 @@ const lotesData = [
         estado: "vendido",
         top: "8.6%",
         left: "34.8%",
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "43.95px",
+        height: "32.5px",
+        shape: "rectangle"
     }, {
         id: 99,
         numero: 99,
         medida: "300 m²",
-        estado: "disponible", // o "vendido"
-        top: "14.8%", // posición vertical sobre la imagen
-        left: "34.8%", // posición horizontal sobre la imagen
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
+        estado: "disponible",
+        top: "14.8%",
+        left: "34.8%",
+        width: "43.95px",
+        height: "32.5px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -1186,19 +1186,19 @@ const lotesData = [
         estado: "vendido",
         top: "21.1%",
         left: "34.8%",
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "43.95px",
+        height: "32.5px",
+        shape: "rectangle"
     }, {
         id: 101,
         numero: 101,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "27.2%", // posición vertical sobre la imagen
-        left: "34.8%", // posición horizontal sobre la imagen
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "27.2%",
+        left: "34.8%",
+        width: "43.95px",
+        height: "32.5px",
+        shape: "rectangle"
     },
     {
         id: 102,
@@ -1207,19 +1207,19 @@ const lotesData = [
         estado: "vendido",
         top: "33.5%",
         left: "34.8%",
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "43.95px",
+        height: "32.5px",
+        shape: "rectangle"
     }, {
         id: 103,
         numero: 103,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "39.6%", // posición vertical sobre la imagen
-        left: "34.8%", // posición horizontal sobre la imagen
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "39.6%",
+        left: "34.8%",
+        width: "43.95px",
+        height: "32.5px",
+        shape: "rectangle"
     },
     {
         id: 104,
@@ -1228,24 +1228,24 @@ const lotesData = [
         estado: "vendido",
         top: "2.3%",
         left: "38.4%",
-        width: "42.9px",         // ✅ nuevo
-        height: "33px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "42.9px",
+        height: "33px",
+        shape: "rectangle"
     }, {
         id: 105,
         numero: 105,
         medida: "300 m²",
-        estado: "disponible", // o "vendido"
-        top: "8.5%", // posición vertical sobre la imagen
-        left: "38.3%", // posición horizontal sobre la imagen
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
+        estado: "disponible",
+        top: "8.5%",
+        left: "38.3%",
+        width: "43.95px",
+        height: "32.5px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -1255,25 +1255,25 @@ const lotesData = [
         estado: "disponible",
         top: "15%",
         left: "38.3%",
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
+        width: "43.95px",
+        height: "32.5px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 107,
         numero: 107,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "21.1%", // posición vertical sobre la imagen
-        left: "38.3%", // posición horizontal sobre la imagen
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "21.1%",
+        left: "38.3%",
+        width: "43.95px",
+        height: "32.5px",
+        shape: "rectangle"
     },
     {
         id: 108,
@@ -1282,19 +1282,19 @@ const lotesData = [
         estado: "vendido",
         top: "27.3%",
         left: "38.3%",
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "43.95px",
+        height: "32.5px",
+        shape: "rectangle"
     }, {
         id: 109,
         numero: 109,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "33.6%", // posición vertical sobre la imagen
-        left: "38.3%", // posición horizontal sobre la imagen
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "33.6%",
+        left: "38.3%",
+        width: "43.95px",
+        height: "32.5px",
+        shape: "rectangle"
     },
     {
         id: 110,
@@ -1303,25 +1303,25 @@ const lotesData = [
         estado: "disponible",
         top: "39.8%",
         left: "38.3%",
-        width: "43.95px",         // ✅ nuevo
-        height: "32.5px",        // ✅ nuevo
+        width: "43.95px",
+        height: "32.5px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 111,
         numero: 111,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "2.2%", // posición vertical sobre la imagen
-        left: "44%", // posición horizontal sobre la imagen
-        width: "56px",         // ✅ nuevo
-        height: "30px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "2.2%",
+        left: "44%",
+        width: "56px",
+        height: "30px",
+        shape: "rectangle"
     },
     {
         id: 112,
@@ -1366,10 +1366,10 @@ const lotesData = [
         height: "30px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -1379,24 +1379,24 @@ const lotesData = [
         estado: "vendido",
         top: "29.4%",
         left: "44%",
-        width: "56px",         // ✅ nuevo
-        height: "30px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "56px",
+        height: "30px",
+        shape: "rectangle"
     }, {
         id: 117,
         numero: 117,
         medida: "300 m²",
-        estado: "disponible", // o "vendido"
-        top: "35%", // posición vertical sobre la imagen
-        left: "44%", // posición horizontal sobre la imagen
-        width: "56px",         // ✅ nuevo
-        height: "30px",        // ✅ nuevo
+        estado: "disponible",
+        top: "35%",
+        left: "44%",
+        width: "56px",
+        height: "30px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -1406,25 +1406,25 @@ const lotesData = [
         estado: "disponible",
         top: "40.3%",
         left: "44%",
-        width: "56px",         // ✅ nuevo
-        height: "30px",        // ✅ nuevo
+        width: "56px",
+        height: "30px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 119,
         numero: 119,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "2.1%", // posición vertical sobre la imagen
-        left: "48.36%", // posición horizontal sobre la imagen
-        width: "56px",         // ✅ nuevo
-        height: "30px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "2.1%",
+        left: "48.36%",
+        width: "56px",
+        height: "30px",
+        shape: "rectangle"
     },
     {
         id: 120,
@@ -1433,19 +1433,19 @@ const lotesData = [
         estado: "vendido",
         top: "7.53%",
         left: "48.4%",
-        width: "56px",         // ✅ nuevo
-        height: "30px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "56px",
+        height: "30px",
+        shape: "rectangle"
     }, {
         id: 121,
         numero: 121,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "13%", // posición vertical sobre la imagen
-        left: "48.45%", // posición horizontal sobre la imagen
-        width: "56px",         // ✅ nuevo
-        height: "30px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "13%",
+        left: "48.45%",
+        width: "56px",
+        height: "30px",
+        shape: "rectangle"
     },
     {
         id: 122,
@@ -1454,19 +1454,18 @@ const lotesData = [
         estado: "vendido",
         top: "18.5%",
         left: "48.45%",
-        width: "56px",         // ✅ nuevo
-        height: "30px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "56px",
+        height: "30px",
+        shape: "rectangle"
     }, {
         id: 123,
         numero: 123,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "23.9%", // posición vertical sobre la imagen
-        left: "48.45%", // posición horizontal sobre la imagen
-        width: "56px",         // ✅ nuevo
-        height: "30px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        left: "48.45%",
+        width: "56px",
+        height: "30px",
+        shape: "rectangle"
     },
     {
         id: 124,
@@ -1475,24 +1474,24 @@ const lotesData = [
         estado: "vendido",
         top: "29.4%",
         left: "48.45%",
-        width: "56px",         // ✅ nuevo
-        height: "29.7px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "56px",
+        height: "29.7px",
+        shape: "rectangle"
     }, {
         id: 125,
         numero: 125,
         medida: "300 m²",
-        estado: "disponible", // o "vendido"
-        top: "34.7%", // posición vertical sobre la imagen
-        left: "48.45%", // posición horizontal sobre la imagen
-        width: "56px",         // ✅ nuevo
-        height: "30px",        // ✅ nuevo
+        estado: "disponible",
+        top: "34.7%",
+        left: "48.45%",
+        width: "56px",
+        height: "30px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -1502,19 +1501,19 @@ const lotesData = [
         estado: "vendido",
         top: "40.3%",
         left: "48.45%",
-        width: "56px",         // ✅ nuevo
-        height: "30px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "56px",
+        height: "30px",
+        shape: "rectangle"
     }, {
         id: 127,
         numero: 127,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "2.22%", // posición vertical sobre la imagen
-        left: "55%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "2.22%",
+        left: "55%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 128,
@@ -1523,19 +1522,19 @@ const lotesData = [
         estado: "vendido",
         top: "7.55%",
         left: "55%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 129,
         numero: 129,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "13%", // posición vertical sobre la imagen
-        left: "55%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "13%",
+        left: "55%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 130,
@@ -1544,19 +1543,19 @@ const lotesData = [
         estado: "vendido",
         top: "18.5%",
         left: "55%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 131,
         numero: 131,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "24%", // posición vertical sobre la imagen
-        left: "55%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "24%",
+        left: "55%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 132,
@@ -1565,19 +1564,19 @@ const lotesData = [
         estado: "vendido",
         top: "29.5%",
         left: "55%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 134,
         numero: 134,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "34.9%", // posición vertical sobre la imagen
-        left: "55%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "34.9%",
+        left: "55%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 135,
@@ -1586,19 +1585,19 @@ const lotesData = [
         estado: "vendido",
         top: "40.34%",
         left: "55%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 136,
         numero: 136,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "2.2%", // posición vertical sobre la imagen
-        left: "59.1%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "2.2%",
+        left: "59.1%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 137,
@@ -1607,25 +1606,25 @@ const lotesData = [
         estado: "disponible",
         top: "7.6%",
         left: "59.1%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
+        width: "53px",
+        height: "28.8px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 138,
         numero: 138,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "12.9%", // posición vertical sobre la imagen
-        left: "59.14%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "12.9%",
+        left: "59.14%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 139,
@@ -1634,19 +1633,19 @@ const lotesData = [
         estado: "vendido",
         top: "18.5%",
         left: "59.1%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 140,
         numero: 140,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "23.9%", // posición vertical sobre la imagen
-        left: "59.1%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "23.9%",
+        left: "59.1%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 141,
@@ -1655,19 +1654,19 @@ const lotesData = [
         estado: "vendido",
         top: "29.38%",
         left: "59.1%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 142,
         numero: 142,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "34.85%", // posición vertical sobre la imagen
-        left: "59.1%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "34.85%",
+        left: "59.1%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 143,
@@ -1676,19 +1675,19 @@ const lotesData = [
         estado: "vendido",
         top: "40.35%",
         left: "59.1%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 144,
         numero: 144,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "2.2%", // posición vertical sobre la imagen
-        left: "65.45%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "2.2%",
+        left: "65.45%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 145,
@@ -1697,24 +1696,24 @@ const lotesData = [
         estado: "vendido",
         top: "7.55%",
         left: "65.45%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 146,
         numero: 146,
         medida: "300 m²",
-        estado: "disponible", // o "vendido"
-        top: "13%", // posición vertical sobre la imagen
-        left: "65.45%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
+        estado: "disponible",
+        top: "13%",
+        left: "65.45%",
+        width: "53px",
+        height: "28.8px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -1724,19 +1723,19 @@ const lotesData = [
         estado: "vendido",
         top: "18.5%",
         left: "65.45%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 148,
         numero: 148,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "23.88%", // posición vertical sobre la imagen
-        left: "65.45%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "23.88%",
+        left: "65.45%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 149,
@@ -1745,25 +1744,25 @@ const lotesData = [
         estado: "disponible",
         top: "29.36%",
         left: "65.45%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
+        width: "53px",
+        height: "28.8px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 150,
         numero: 150,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "34.8%", // posición vertical sobre la imagen
-        left: "65.45%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "34.8%",
+        left: "65.45%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 151,
@@ -1772,19 +1771,19 @@ const lotesData = [
         estado: "vendido",
         top: "40.25%",
         left: "65.45%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 152,
         numero: 152,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "2.1%", // posición vertical sobre la imagen
-        left: "69.58%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "2.1%",
+        left: "69.58%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 153,
@@ -1793,19 +1792,19 @@ const lotesData = [
         estado: "vendido",
         top: "7.55%",
         left: "69.58%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 154,
         numero: 154,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "13%", // posición vertical sobre la imagen
-        left: "69.58%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "13%",
+        left: "69.58%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 155,
@@ -1814,19 +1813,19 @@ const lotesData = [
         estado: "vendido",
         top: "18.5%",
         left: "69.58%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 156,
         numero: 156,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "23.9%", // posición vertical sobre la imagen
-        left: "69.58%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "23.9%",
+        left: "69.58%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 157,
@@ -1835,19 +1834,19 @@ const lotesData = [
         estado: "vendido",
         top: "29.36%",
         left: "69.58%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     }, {
         id: 158,
         numero: 158,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "34.8%", // posición vertical sobre la imagen
-        left: "69.58%", // posición horizontal sobre la imagen
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "34.8%",
+        left: "69.58%",
+        width: "53px",
+        height: "28.8px",
+        shape: "rectangle"
     },
     {
         id: 159,
@@ -1856,30 +1855,30 @@ const lotesData = [
         estado: "disponible",
         top: "40.3%",
         left: "69.58%",
-        width: "53px",         // ✅ nuevo
-        height: "28.8px",        // ✅ nuevo
+        width: "53px",
+        height: "28.8px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 160,
         numero: 160,
         medida: "300 m²",
-        estado: "disponible", // o "vendido"
-        top: "53.9%", // posición vertical sobre la imagen
-        left: "34.8%", // posición horizontal sobre la imagen
-        width: "45px",         // ✅ nuevo
-        height: "36.6px",        // ✅ nuevo
+        estado: "disponible",
+        top: "53.9%",
+        left: "34.8%",
+        width: "45px",
+        height: "36.6px",
         shape: "corner-top-left",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -1889,19 +1888,19 @@ const lotesData = [
         estado: "vendido",
         top: "60.9%",
         left: "34.85%",
-        width: "44.2px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.2px",
+        height: "35.6px",
+        shape: "rectangle"
     }, {
         id: 162,
         numero: 162,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "67.5%", // posición vertical sobre la imagen
-        left: "34.85%", // posición horizontal sobre la imagen
-        width: "44.2px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "67.5%",
+        left: "34.85%",
+        width: "44.2px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 163,
@@ -1910,19 +1909,19 @@ const lotesData = [
         estado: "vendido",
         top: "74.3%",
         left: "34.85%",
-        width: "44.2px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.2px",
+        height: "35.6px",
+        shape: "rectangle"
     }, {
         id: 164,
         numero: 164,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "81.1%", // posición vertical sobre la imagen
-        left: "34.85%", // posición horizontal sobre la imagen
-        width: "44.2px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "81.1%",
+        left: "34.85%",
+        width: "44.2px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 165,
@@ -1931,19 +1930,19 @@ const lotesData = [
         estado: "vendido",
         top: "87.9%",
         left: "34.85%",
-        width: "44.2px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.2px",
+        height: "35.6px",
+        shape: "rectangle"
     }, {
         id: 166,
         numero: 166,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "53.9%", // posición vertical sobre la imagen
-        left: "38.3%", // posición horizontal sobre la imagen
-        width: "44.2px",         // ✅ nuevo
-        height: "36.5px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "53.9%",
+        left: "38.3%",
+        width: "44.2px",
+        height: "36.5px",
+        shape: "rectangle"
     },
     {
         id: 167,
@@ -1952,19 +1951,19 @@ const lotesData = [
         estado: "vendido",
         top: "60.8%",
         left: "38.3%",
-        width: "44.2px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.2px",
+        height: "35.6px",
+        shape: "rectangle"
     }, {
         id: 168,
         numero: 168,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "67.6%", // posición vertical sobre la imagen
-        left: "38.3%", // posición horizontal sobre la imagen
-        width: "44.2px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "67.6%",
+        left: "38.3%",
+        width: "44.2px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 169,
@@ -1973,19 +1972,19 @@ const lotesData = [
         estado: "vendido",
         top: "74.35%",
         left: "38.3%",
-        width: "44.2px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.2px",
+        height: "35.6px",
+        shape: "rectangle"
     }, {
         id: 170,
         numero: 170,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "81.1%", // posición vertical sobre la imagen
-        left: "38.3%", // posición horizontal sobre la imagen
-        width: "44.2px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "81.1%",
+        left: "38.3%",
+        width: "44.2px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 171,
@@ -1994,19 +1993,19 @@ const lotesData = [
         estado: "vendido",
         top: "87.9%",
         left: "38.3%",
-        width: "44.2px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.2px",
+        height: "35.6px",
+        shape: "rectangle"
     }, {
         id: 172,
         numero: 172,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "53.9%", // posición vertical sobre la imagen
-        left: "44.1%", // posición horizontal sobre la imagen
-        width: "56.5px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "53.9%",
+        left: "44.1%",
+        width: "56.5px",
+        height: "31px",
+        shape: "rectangle"
     },
     {
         id: 173,
@@ -2015,19 +2014,19 @@ const lotesData = [
         estado: "vendido",
         top: "59.9%",
         left: "44.1%",
-        width: "56.5px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "56.5px",
+        height: "31px",
+        shape: "rectangle"
     }, {
         id: 174,
         numero: 174,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "65.5%", // posición vertical sobre la imagen
-        left: "44.1%", // posición horizontal sobre la imagen
-        width: "56.5px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "65.5%",
+        left: "44.1%",
+        width: "56.5px",
+        height: "31px",
+        shape: "rectangle"
     },
     {
         id: 175,
@@ -2036,19 +2035,19 @@ const lotesData = [
         estado: "vendido",
         top: "71.3%",
         left: "44.1%",
-        width: "56px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "56px",
+        height: "31px",
+        shape: "rectangle"
     }, {
         id: 176,
         numero: 176,
         medida: "300 m²",
-        estado: "vendido", // o "vendido"
-        top: "77%", // posición vertical sobre la imagen
-        left: "44.1%", // posición horizontal sobre la imagen
-        width: "56px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        estado: "vendido",
+        top: "77%",
+        left: "44.1%",
+        width: "56px",
+        height: "31px",
+        shape: "rectangle"
     },
     {
         id: 177,
@@ -2057,24 +2056,24 @@ const lotesData = [
         estado: "vendido",
         top: "82.89%",
         left: "44.1%",
-        width: "56px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "56px",
+        height: "31px",
+        shape: "rectangle"
     }, {
         id: 178,
         numero: 178,
         medida: "300 m²",
-        estado: "disponible", // o "vendido"
-        top: "88.62%", // posición vertical sobre la imagen
-        left: "44.1%", // posición horizontal sobre la imagen
-        width: "56px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
+        estado: "disponible",
+        top: "88.62%",
+        left: "44.1%",
+        width: "56px",
+        height: "31px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -2084,30 +2083,30 @@ const lotesData = [
         estado: "disponible",
         top: "53.9%",
         left: "48.45%",
-        width: "56px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
+        width: "56px",
+        height: "31px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     }, {
         id: 180,
         numero: 180,
         medida: "300 m²",
-        estado: "disponible", // o "vendido"
-        top: "59.7%", // posición vertical sobre la imagen
-        left: "48.45%", // posición horizontal sobre la imagen
-        width: "56px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
+        estado: "disponible",
+        top: "59.7%",
+        left: "48.45%",
+        width: "56px",
+        height: "31px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -2119,7 +2118,7 @@ const lotesData = [
         left: "48.45%",
         width: "56px",
         height: "31px",
-        shape: "rectangle"  // nueva clase para indicar estilo
+        shape: "rectangle"
     },
     {
         id: 182,
@@ -2141,7 +2140,7 @@ const lotesData = [
         left: "48.45%",
         width: "56px",
         height: "31px",
-        shape: "rectangle"  // nueva clase para indicar estilo
+        shape: "rectangle"
     },
     {
         id: 184,
@@ -2150,14 +2149,14 @@ const lotesData = [
         estado: "disponible",
         top: "82.75%",
         left: "48.45%",
-        width: "56px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
+        width: "56px",
+        height: "31px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote5.jpg",
-            "/src/assets/image-lote6.jpg",
-            "/src/assets/image-lote7.jpg",
-            "/src/assets/image-lote8.jpg",
+            "/public/img/image-lote5.jpg",
+            "/public/img/image-lote6.jpg",
+            "/public/img/image-lote7.jpg",
+            "/public/img/image-lote8.jpg",
         ],
     },
     {
@@ -2167,9 +2166,9 @@ const lotesData = [
         estado: "vendido",
         top: "88.7%",
         left: "48.45%",
-        width: "56px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "56px",
+        height: "31px",
+        shape: "rectangle"
     },
     {
         id: 186,
@@ -2178,9 +2177,9 @@ const lotesData = [
         estado: "vendido",
         top: "53.8%",
         left: "55%",
-        width: "55.1px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "55.1px",
+        height: "31.2px",
+        shape: "rectangle"
     },
     {
         id: 187,
@@ -2189,14 +2188,14 @@ const lotesData = [
         estado: "disponible",
         top: "59.68%",
         left: "55%",
-        width: "55.1px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
+        width: "55.1px",
+        height: "31.2px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -2206,14 +2205,14 @@ const lotesData = [
         estado: "disponible",
         top: "65.4%",
         left: "55%",
-        width: "55.1px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
+        width: "55.1px",
+        height: "31.2px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -2223,9 +2222,9 @@ const lotesData = [
         estado: "vendido",
         top: "71.2%",
         left: "55%",
-        width: "55.1px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "55.1px",
+        height: "31.2px",
+        shape: "rectangle"
     },
     {
         id: 190,
@@ -2234,9 +2233,9 @@ const lotesData = [
         estado: "vendido",
         top: "76.95%",
         left: "55%",
-        width: "55.1px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "55.1px",
+        height: "31.2px",
+        shape: "rectangle"
     },
     {
         id: 191,
@@ -2245,9 +2244,9 @@ const lotesData = [
         estado: "vendido",
         top: "82.65%",
         left: "55.1%",
-        width: "52.5px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "52.5px",
+        height: "31.2px",
+        shape: "rectangle"
     },
     {
         id: 192,
@@ -2256,9 +2255,9 @@ const lotesData = [
         estado: "vendido",
         top: "88.6%",
         left: "55.1%",
-        width: "52.5px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "52.5px",
+        height: "31.2px",
+        shape: "rectangle"
     },
     {
         id: 193,
@@ -2267,9 +2266,9 @@ const lotesData = [
         estado: "vendido",
         top: "53.7%",
         left: "59.2%",
-        width: "52.5px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "52.5px",
+        height: "31.2px",
+        shape: "rectangle"
     },
     {
         id: 194,
@@ -2278,9 +2277,9 @@ const lotesData = [
         estado: "vendido",
         top: "59.7%",
         left: "59.2%",
-        width: "52.5px",         // ✅ nuevo
-        height: "31px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "52.5px",
+        height: "31px",
+        shape: "rectangle"
     },
     {
         id: 195,
@@ -2289,9 +2288,9 @@ const lotesData = [
         estado: "vendido",
         top: "65.44%",
         left: "59.2%",
-        width: "52.5px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "52.5px",
+        height: "31.2px",
+        shape: "rectangle"
     },
     {
         id: 196,
@@ -2300,9 +2299,9 @@ const lotesData = [
         estado: "vendido",
         top: "71.2%",
         left: "59.2%",
-        width: "52.5px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "52.5px",
+        height: "31.2px",
+        shape: "rectangle"
     },
     {
         id: 197,
@@ -2311,9 +2310,9 @@ const lotesData = [
         estado: "vendido",
         top: "76.95%",
         left: "59.2%",
-        width: "52.5px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "52.5px",
+        height: "31.2px",
+        shape: "rectangle"
     },
     {
         id: 198,
@@ -2322,9 +2321,9 @@ const lotesData = [
         estado: "vendido",
         top: "82.7%",
         left: "59.2%",
-        width: "52.5px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "52.5px",
+        height: "31.2px",
+        shape: "rectangle"
     },
     {
         id: 199,
@@ -2333,9 +2332,9 @@ const lotesData = [
         estado: "vendido",
         top: "88.6%",
         left: "59.2%",
-        width: "52.5px",         // ✅ nuevo
-        height: "31.2px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "52.5px",
+        height: "31.2px",
+        shape: "rectangle"
     },
     {
         id: 200,
@@ -2344,9 +2343,9 @@ const lotesData = [
         estado: "vendido",
         top: "53.9%",
         left: "65.45%",
-        width: "44.9px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.9px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 201,
@@ -2355,14 +2354,14 @@ const lotesData = [
         estado: "disponible",
         top: "60.7%",
         left: "65.45%",
-        width: "44.9px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
+        width: "44.9px",
+        height: "35.6px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -2372,9 +2371,9 @@ const lotesData = [
         estado: "vendido",
         top: "67.4%",
         left: "65.45%",
-        width: "44.9px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.9px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 203,
@@ -2383,9 +2382,9 @@ const lotesData = [
         estado: "vendido",
         top: "74.15%",
         left: "65.45%",
-        width: "44.9px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.9px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 204,
@@ -2394,9 +2393,9 @@ const lotesData = [
         estado: "vendido",
         top: "80.9%",
         left: "65.45%",
-        width: "44.9px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.9px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 205,
@@ -2405,9 +2404,9 @@ const lotesData = [
         estado: "vendido",
         top: "87.7%",
         left: "65.45%",
-        width: "44.9px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.9px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 206,
@@ -2416,9 +2415,9 @@ const lotesData = [
         estado: "vendido",
         top: "53.7%",
         left: "69%",
-        width: "45px",         // ✅ nuevo
-        height: "36.6px",        // ✅ nuevo
-        shape: "corner-top-right"        // puede ser "circle", "rectangle", "triangle"
+        width: "45px",
+        height: "36.6px",
+        shape: "corner-top-right"
     },
     {
         id: 207,
@@ -2427,14 +2426,14 @@ const lotesData = [
         estado: "disponible",
         top: "60.7%",
         left: "69%",
-        width: "44.9px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
+        width: "44.9px",
+        height: "35.6px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -2444,9 +2443,9 @@ const lotesData = [
         estado: "vendido",
         top: "67.4%",
         left: "69%",
-        width: "44.9px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.9px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 209,
@@ -2455,9 +2454,9 @@ const lotesData = [
         estado: "vendido",
         top: "74.2%",
         left: "69%",
-        width: "44.9px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.9px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 210,
@@ -2466,9 +2465,9 @@ const lotesData = [
         estado: "vendido",
         top: "80.8%",
         left: "69%",
-        width: "44.9px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.9px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 211,
@@ -2477,9 +2476,9 @@ const lotesData = [
         estado: "vendido",
         top: "87.7%",
         left: "69%",
-        width: "44.9px",         // ✅ nuevo
-        height: "35.6px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "44.9px",
+        height: "35.6px",
+        shape: "rectangle"
     },
     {
         id: 212,
@@ -2488,9 +2487,9 @@ const lotesData = [
         estado: "vendido",
         top: "2.1%",
         left: "75.9%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 213,
@@ -2499,9 +2498,9 @@ const lotesData = [
         estado: "vendido",
         top: "7.6%",
         left: "75.9%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 214,
@@ -2510,9 +2509,9 @@ const lotesData = [
         estado: "vendido",
         top: "13%",
         left: "75.9%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 215,
@@ -2521,9 +2520,9 @@ const lotesData = [
         estado: "vendido",
         top: "18.5%",
         left: "75.9%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 216,
@@ -2532,9 +2531,9 @@ const lotesData = [
         estado: "vendido",
         top: "23.9%",
         left: "75.9%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 217,
@@ -2543,14 +2542,14 @@ const lotesData = [
         estado: "disponible",
         top: "29.5%",
         left: "75.9%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
+        width: "53px",
+        height: "28px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -2560,14 +2559,14 @@ const lotesData = [
         estado: "disponible",
         top: "34.8%",
         left: "75.9%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
+        width: "53px",
+        height: "28px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -2577,9 +2576,9 @@ const lotesData = [
         estado: "vendido",
         top: "40.2%",
         left: "75.9%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 220,
@@ -2588,9 +2587,9 @@ const lotesData = [
         estado: "vendido",
         top: "2.1%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 221,
@@ -2599,9 +2598,9 @@ const lotesData = [
         estado: "vendido",
         top: "7.6%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 222,
@@ -2610,9 +2609,9 @@ const lotesData = [
         estado: "vendido",
         top: "12.9%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 223,
@@ -2621,9 +2620,9 @@ const lotesData = [
         estado: "vendido",
         top: "18.5%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 224,
@@ -2632,9 +2631,9 @@ const lotesData = [
         estado: "vendido",
         top: "24%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 225,
@@ -2643,9 +2642,9 @@ const lotesData = [
         estado: "vendido",
         top: "29.4%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 226,
@@ -2654,9 +2653,9 @@ const lotesData = [
         estado: "vendido",
         top: "35%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 227,
@@ -2665,9 +2664,9 @@ const lotesData = [
         estado: "vendido",
         top: "40.34%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 228,
@@ -2676,9 +2675,9 @@ const lotesData = [
         estado: "vendido",
         top: "50.84%",
         left: "75.95%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 229,
@@ -2687,9 +2686,9 @@ const lotesData = [
         estado: "vendido",
         top: "56.35%",
         left: "75.95%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 230,
@@ -2698,9 +2697,9 @@ const lotesData = [
         estado: "vendido",
         top: "61.7%",
         left: "75.95%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 231,
@@ -2709,9 +2708,9 @@ const lotesData = [
         estado: "vendido",
         top: "67.2%",
         left: "75.95%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 232,
@@ -2720,14 +2719,14 @@ const lotesData = [
         estado: "disponible",
         top: "72.5%",
         left: "75.95%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
+        width: "53px",
+        height: "28px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -2737,9 +2736,9 @@ const lotesData = [
         estado: "vendido",
         top: "78%",
         left: "75.95%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 234,
@@ -2748,9 +2747,9 @@ const lotesData = [
         estado: "vendido",
         top: "83.5%",
         left: "75.95%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 235,
@@ -2759,9 +2758,9 @@ const lotesData = [
         estado: "vendido",
         top: "89%",
         left: "75.95%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 236,
@@ -2770,9 +2769,9 @@ const lotesData = [
         estado: "vendido",
         top: "50.7%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 237,
@@ -2781,9 +2780,9 @@ const lotesData = [
         estado: "vendido",
         top: "56.2%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 238,
@@ -2792,9 +2791,9 @@ const lotesData = [
         estado: "vendido",
         top: "61.7%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 239,
@@ -2803,9 +2802,9 @@ const lotesData = [
         estado: "vendido",
         top: "67.15%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 240,
@@ -2814,9 +2813,9 @@ const lotesData = [
         estado: "vendido",
         top: "72.7%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 241,
@@ -2825,9 +2824,9 @@ const lotesData = [
         estado: "vendido",
         top: "78.1%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 242,
@@ -2836,9 +2835,9 @@ const lotesData = [
         estado: "vendido",
         top: "83.5%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 243,
@@ -2847,9 +2846,9 @@ const lotesData = [
         estado: "vendido",
         top: "89.1%",
         left: "80%",
-        width: "53px",         // ✅ nuevo
-        height: "28px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "53px",
+        height: "28px",
+        shape: "rectangle"
     },
     {
         id: 244,
@@ -2858,9 +2857,9 @@ const lotesData = [
         estado: "vendido",
         top: "2.1%",
         left: "86.3%",
-        width: "38px",         // ✅ nuevo
-        height: "44.8px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "38px",
+        height: "44.8px",
+        shape: "rectangle"
     },
     {
         id: 245,
@@ -2869,9 +2868,9 @@ const lotesData = [
         estado: "vendido",
         top: "10.3%",
         left: "86.3%",
-        width: "38px",         // ✅ nuevo
-        height: "37px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "38px",
+        height: "37px",
+        shape: "rectangle"
     },
     {
         id: 246,
@@ -2880,14 +2879,14 @@ const lotesData = [
         estado: "disponible",
         top: "17.2%",
         left: "86.3%",
-        width: "38px",         // ✅ nuevo
-        height: "37px",        // ✅ nuevo
+        width: "38px",
+        height: "37px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -2897,9 +2896,9 @@ const lotesData = [
         estado: "vendido",
         top: "23.9%",
         left: "86.3%",
-        width: "46.8px",         // ✅ nuevo
-        height: "28.5px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "46.8px",
+        height: "28.5px",
+        shape: "rectangle"
     },
     {
         id: 248,
@@ -2908,9 +2907,9 @@ const lotesData = [
         estado: "vendido",
         top: "29.3%",
         left: "86.3%",
-        width: "46.8px",         // ✅ nuevo
-        height: "28.5px",        // ✅ nuevo
-        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+        width: "46.8px",
+        height: "28.5px",
+        shape: "rectangle"
     },
     {
         id: 249,
@@ -2923,10 +2922,10 @@ const lotesData = [
         height: "28.5px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -2984,10 +2983,10 @@ const lotesData = [
         height: "30px",
         shape: "lote-diagonal",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -3044,10 +3043,10 @@ const lotesData = [
         height: "63px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
@@ -3061,10 +3060,10 @@ const lotesData = [
         height: "63px",
         shape: "rectangle",
         fotos: [
-            "/src/assets/image-lote1.jpg",
-            "/src/assets/image-lote2.jpg",
-            "/src/assets/image-lote3.jpg",
-            "/src/assets/image-lote4.jpg",
+            "/public/img/image-lote1.jpg",
+            "/public/img/image-lote2.jpg",
+            "/public/img/image-lote3.jpg",
+            "/public/img/image-lote4.jpg",
         ],
     },
     {
