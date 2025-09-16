@@ -1,0 +1,75 @@
+.marquee-banner {
+    position: relative;
+    overflow: hidden;
+    background: #A77E58;
+    color: #fff;
+    padding: 0.8rem 0;
+    white-space: nowrap;
+}
+
+/* Track animado */
+.marquee-banner__track {
+    display: flex;
+    width: max-content;
+    animation: marquee 25s linear infinite;
+}
+
+/* Texto */
+.marquee-banner__text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Animación continua */
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Efecto degradado en los costados */
+.marquee-banner__fade {
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.marquee-banner__fade--left {
+    left: 0;
+    background: linear-gradient(to right, #A77E58 0%, transparent 100%);
+}
+
+.marquee-banner__fade--right {
+    right: 0;
+    background: linear-gradient(to left, #A77E58 0%, transparent 100%);
+}
+
+/* Hover pausa */
+.marquee-banner__track:hover {
+    animation-play-state: paused;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .marquee-banner__text {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+
+    .marquee-banner__track {
+        animation-duration: 35s;
+        /* más lento en mobile */
+    }
+}

@@ -1,0 +1,3226 @@
+// src/data/lotesData.js
+const lotesData = [
+    {
+        id: 1,
+        numero: 1,
+        medida: "510.00m²",
+        estado: "vendido", // o "disponible"
+        top: "2.4%", // posición vertical sobre la imagen
+        left: "2.9%", // posición horizontal sobre la imagen
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 2,
+        numero: 2,
+        medida: "510.00m²",
+        estado: "disponible",
+        top: "7.8%",
+        left: "2.9%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 3,
+        numero: 3,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "13.3%",
+        left: "2.9%",
+        width: "53px",      
+        height: "29.3px",        
+        shape: "rectangle"       
+    },
+    {
+        id: 4,
+        numero: 4,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "18.7%", 
+        left: "2.9%", 
+        width: "53px",        
+        height: "29.3px",       
+        shape: "rectangle"       
+    },
+    {
+        id: 5,
+        numero: 5,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "24.1%",
+        left: "2.9%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
+    }, {
+        id: 6,
+        numero: 6,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "29.6%",
+        left: "2.9%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
+    },
+    {
+        id: 7,
+        numero: 7,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "35.1%",
+        left: "2.9%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
+    },
+    {
+        id: 8,
+        numero: 8,
+        medida: "510.00m²",
+        estado: "disponible",
+        top: "40.5%",
+        left: "2.9%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 9,
+        numero: 9,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "2.4%",
+        left: "7%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
+    },
+    {
+        id: 10,
+        numero: 10,
+        medida: "510.00m²",
+        estado: "disponible",
+        top: "7.8%",
+        left: "7%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote5.jpg",
+            "/src/assets/image-lote6.jpg",
+            "/src/assets/image-lote7.jpg",
+            "/src/assets/image-lote8.jpg",
+        ],
+    },
+    {
+        id: 11,
+        numero: 11,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "13.3%",
+        left: "7%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
+    }, {
+        id: 12,
+        numero: 12,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "18.7%",
+        left: "7%",
+        width: "53px",
+        height: "29.3px",
+        shape: "rectangle"
+    },
+    {
+        id: 13,
+        numero: 13,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "24.1%",
+        left: "7%",
+        width: "53px",      
+        height: "29.3px",      
+        shape: "rectangle"        
+    }, {
+        id: 14,
+        numero: 14,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "29.6%", 
+        left: "7%", 
+        width: "53px",    
+        height: "29.3px",        
+        shape: "rectangle"      
+    },
+    {
+        id: 15,
+        numero: 15,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "35.1%",
+        left: "7%",
+        width: "53px",        
+        height: "29.3px",  
+        shape: "rectangle"        
+    }, {
+        id: 16,
+        numero: 16,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "40.5%", 
+        left: "7%", 
+        width: "53px",        
+        height: "29.3px",      
+        shape: "rectangle"      
+    },
+    {
+        id: 17,
+        numero: 17,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "2.4%",
+        left: "13.3%",
+        width: "53px",         
+        height: "29.3px",      
+        shape: "rectangle"       
+    }, {
+        id: 18,
+        numero: 18,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "7.8%", 
+        left: "13.3%", 
+        width: "53px",      
+        height: "29.3px",      
+        shape: "rectangle"        
+    },
+    {
+        id: 19,
+        numero: 19,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "13.3%",
+        left: "13.3%",
+        width: "53px",        
+        height: "29.3px",      
+        shape: "rectangle"       
+    }, {
+        id: 20,
+        numero: 20,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "18.8%", 
+        left: "13.3%", 
+        width: "53px",       
+        height: "29.3px",      
+        shape: "rectangle"       
+    },
+    {
+        id: 21,
+        numero: 21,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "24.1%",
+        left: "13.3%",
+        width: "53px",      
+        height: "29.3px",       
+        shape: "rectangle"       
+    }, {
+        id: 22,
+        numero: 22,
+        medida: "510.00m²",
+        estado: "disponible", 
+        top: "29.5%",
+        left: "13.3%", 
+        width: "53px",         
+        height: "29.3px",        
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 23,
+        numero: 23,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "35%",
+        left: "13.3%",
+        width: "53px",        
+        height: "29.3px",     
+        shape: "rectangle"       
+    }, {
+        id: 24,
+        numero: 24,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "40.5%", 
+        left: "13.3%", 
+        width: "53px",        
+        height: "29.3px",      
+        shape: "rectangle"        
+    },
+    {
+        id: 25,
+        numero: 25,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "2.4%",
+        left: "17.5%",
+        width: "53px",       
+        height: "29.3px",        
+        shape: "rectangle"        
+    }, {
+        id: 26,
+        numero: 26,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "7.8%", 
+        left: "17.5%",
+        width: "53px",        
+        height: "29.3px",       
+        shape: "rectangle"       
+    },
+    {
+        id: 27,
+        numero: 27,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "13.2%",
+        left: "17.5%",
+        width: "53px",        
+        height: "29.3px",     
+        shape: "rectangle"       
+    }, {
+        id: 28,
+        numero: 28,
+        medida: "510.00m²",
+        estado: "disponible", 
+        top: "18.8%", 
+        left: "17.5%", 
+        width: "53px",        
+        height: "29.3px",        
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 29,
+        numero: 29,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "24.1%",
+        left: "17.5%",
+        width: "53px",        
+        height: "29.3px",        
+        shape: "rectangle"       
+    }, {
+        id: 30,
+        numero: 30,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "29.5%", 
+        left: "17.5%", 
+        width: "53px",    
+        height: "29.3px",        
+        shape: "rectangle"        
+    },
+    {
+        id: 31,
+        numero: 31,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "35%",
+        left: "17.5%",
+        width: "53px",     
+        height: "29.3px",      
+        shape: "rectangle"      
+    }, {
+        id: 32,
+        numero: 32,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "40.4%", 
+        left: "17.5%", 
+        width: "53px",         
+        height: "29.3px",        
+        shape: "rectangle"        
+    },
+    {
+        id: 33,
+        numero: 33,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "2.3%",
+        left: "23.8%",
+        width: "48px",        
+        height: "29px",        
+        shape: "rectangle"       
+    }, {
+        id: 34,
+        numero: 34,
+        medida: "300 m²",
+        estado: "vendido", 
+        top: "8%",
+        left: "23.8%",
+        width: "48px",        
+        height: "29px",     
+        shape: "rectangle"       
+    },
+    {
+        id: 35,
+        numero: 35,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "13.3%",
+        left: "23.8%",
+        width: "48px",        
+        height: "29px",       
+        shape: "rectangle"       
+    }, {
+        id: 36,
+        numero: 36,
+        medida: "300 m²",
+        estado: "disponible", 
+        top: "18.8%",
+        left: "23.8%", 
+        width: "48px",      
+        height: "29px",        
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 37,
+        numero: 37,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "24.1%",
+        left: "23.8%",
+        width: "48px",        
+        height: "29px",        
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 38,
+        numero: 38,
+        medida: "300 m²",
+        estado: "vendido", 
+        top: "29.4%", 
+        left: "23.8%", 
+        width: "48px",        
+        height: "29px",        
+        shape: "rectangle"      
+    },
+    {
+        id: 39,
+        numero: 39,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "35%",
+        left: "23.8%",
+        width: "48px",        
+        height: "29px",       
+        shape: "rectangle"        
+    }, {
+        id: 40,
+        numero: 40,
+        medida: "300 m²",
+        estado: "vendido", 
+        top: "40.5%", 
+        left: "23.8%", 
+        width: "48px",        
+        height: "29px",       
+        shape: "rectangle"       
+    },
+    {
+        id: 41,
+        numero: 41,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "2.3%",
+        left: "27.6%",
+        width: "48px",       
+        height: "29px",        
+        shape: "rectangle"       
+    },
+    {
+        id: 42,
+        numero: 42,
+        medida: "300 m²",
+        estado: "vendido", 
+        top: "7.8%", 
+        left: "27.6%", 
+        width: "48px",        
+        height: "29px",      
+        shape: "rectangle"       
+    },
+    {
+        id: 43,
+        numero: 43,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "13.2%",
+        left: "27.6%",
+        width: "48px",        
+        height: "29px",       
+        shape: "rectangle"       
+    }, {
+        id: 44,
+        numero: 44,
+        medida: "300 m²",
+        estado: "disponible", 
+        top: "18.7%", 
+        left: "27.6%", 
+        width: "48px",       
+        height: "29px",      
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 45,
+        numero: 45,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "24.1%",
+        left: "27.6%",
+        width: "48px",         
+        height: "29px",        
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 46,
+        numero: 46,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "29.6%", // posición vertical sobre la imagen
+        left: "27.6%", // posición horizontal sobre la imagen
+        width: "48px",         // ✅ nuevo
+        height: "29px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 47,
+        numero: 47,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "35%",
+        left: "27.6%",
+        width: "48px",         // ✅ nuevo
+        height: "29px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 48,
+        numero: 48,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "40.5%", // posición vertical sobre la imagen
+        left: "27.6%", // posición horizontal sobre la imagen
+        width: "48px",         // ✅ nuevo
+        height: "29px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 49,
+        numero: 49,
+        medida: "510.00m²",
+        estado: "vendido", // o "vendido"
+        top: "51.1%", // posición vertical sobre la imagen
+        left: "7.1%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "29.3px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 50,
+        numero: 50,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "56.6%",
+        left: "7.1%",
+        width: "53px",         // ✅ nuevo
+        height: "29.3px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 51,
+        numero: 51,
+        medida: "510.00m²",
+        estado: "vendido", // o "vendido"
+        top: "62%", // posición vertical sobre la imagen
+        left: "7.1%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "29.3px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 52,
+        numero: 52,
+        medida: "510.00m²",
+        estado: "disponible",
+        top: "67.5%",
+        left: "7.1%",
+        width: "53px",         // ✅ nuevo
+        height: "29.3px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 53,
+        numero: 53,
+        medida: "510.00m²",
+        estado: "vendido", // o "vendido"
+        top: "72.9%", // posición vertical sobre la imagen
+        left: "7.1%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "29.3px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 54,
+        numero: 54,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "78.3%",
+        left: "7.1%",
+        width: "53px",         // ✅ nuevo
+        height: "29.3px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 55,
+        numero: 55,
+        medida: "510.00m²",
+        estado: "vendido", // o "vendido"
+        top: "83.9%", // posición vertical sobre la imagen
+        left: "7.1%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "29.3px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 56,
+        numero: 56,
+        medida: "510.00m²",
+        estado: "disponible",
+        top: "89.2%",
+        left: "7.1%",
+        width: "53px",         // ✅ nuevo
+        height: "29.3px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 57,
+        numero: 57,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "51.1%", 
+        left: "2.9%", 
+        width: "53px",        
+        height: "29.3px",        
+        shape: "rectangle"       
+    },
+    {
+        id: 58,
+        numero: 58,
+        medida: "510.00m²",
+        estado: "disponible",
+        top: "56.6%",
+        left: "2.9%",
+        width: "52.5px",     
+        height: "29.3px",       
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 59,
+        numero: 59,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "62%", 
+        left: "2.9%", 
+        width: "53px",       
+        height: "29.3px",      
+        shape: "rectangle"       
+    },
+    {
+        id: 60,
+        numero: 60,
+        medida: "510.00m²",
+        estado: "disponible",
+        top: "67.4%",
+        left: "2.9%",
+        width: "53px",        
+        height: "29.3px",        
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 61,
+        numero: 61,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "72.8%",
+        left: "2.9%", 
+        width: "53px",        
+        height: "29.3px",      
+        shape: "rectangle"        
+    },
+    {
+        id: 62,
+        numero: 62,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "78.3%",
+        left: "2.9%",
+        width: "53px",      
+        height: "29.3px",     
+        shape: "rectangle"      
+    }, {
+        id: 63,
+        numero: 63,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "83.7%",
+        left: "2.9%", 
+        width: "53px",      
+        height: "29.3px",     
+        shape: "rectangle"      
+    },
+    {
+        id: 64,
+        numero: 64,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "89.2%",
+        left: "2.9%",
+        width: "53px",        
+        height: "29.3px",     
+        shape: "rectangle"        
+    }, {
+        id: 65,
+        numero: 65,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "51%", 
+        left: "17.5%", 
+        width: "53px",    
+        height: "29.3px",      
+        shape: "rectangle"        
+    },
+    {
+        id: 66,
+        numero: 66,
+        medida: "510.00m²",
+        estado: "disponible",
+        top: "56.5%",
+        left: "17.5%",
+        width: "53px",        
+        height: "29.3px",       
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 67,
+        numero: 67,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "62%", 
+        left: "17.5%",
+        width: "53px",      
+        height: "29.3px",        
+        shape: "rectangle"      
+    },
+    {
+        id: 68,
+        numero: 68,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "67.4%",
+        left: "17.5%",
+        width: "53px",      
+        height: "29.3px",       
+        shape: "rectangle"      
+    }, {
+        id: 69,
+        numero: 69,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "72.9%", 
+        left: "17.5%",
+        width: "53px",      
+        height: "29.3px",       
+        shape: "rectangle"      
+    },
+    {
+        id: 70,
+        numero: 70,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "78.3%",
+        left: "17.5%",
+        width: "53px",       
+        height: "29.3px",       
+        shape: "rectangle"      
+    }, {
+        id: 71,
+        numero: 71,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "83.8%",
+        left: "17.5%", 
+        width: "53px",        
+        height: "29.3px",     
+        shape: "rectangle"       
+    },
+    {
+        id: 72,
+        numero: 72,
+        medida: "510.00m²",
+        estado: "disponible",
+        top: "89.2%",
+        left: "17.5%",
+        width: "53px",       
+        height: "29.3px",      
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 73,
+        numero: 73,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "51%", 
+        left: "13.4%",
+        width: "53px",       
+        height: "29.3px",     
+        shape: "rectangle"       
+    },
+    {
+        id: 74,
+        numero: 74,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "56.5%",
+        left: "13.4%",
+        width: "53px",        
+        height: "29.3px",       
+        shape: "rectangle"      
+    }, {
+        id: 75,
+        numero: 75,
+        medida: "510.00m²",
+        estado: "disponible", 
+        top: "61.9%", 
+        left: "13.4%", 
+        width: "53px",        
+        height: "29.3px",       
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 76,
+        numero: 76,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "67.4%",
+        left: "13.4%",
+        width: "53px",       
+        height: "29.3px",      
+        shape: "rectangle"     
+    }, {
+        id: 77,
+        numero: 77,
+        medida: "510.00m²",
+        estado: "vendido", 
+        top: "72.9%", 
+        left: "13.4%",
+        width: "53px",       
+        height: "29.3px",      
+        shape: "rectangle"     
+    },
+    {
+        id: 78,
+        numero: 78,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "78.3%",
+        left: "13.4%",
+        width: "53px",       
+        height: "29.3px",      
+        shape: "rectangle"       
+    }, {
+        id: 79,
+        numero: 79,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "83.7%",
+        left: "13.4%", 
+        width: "53px",       
+        height: "29.3px",      
+        shape: "rectangle"      
+    },
+    {
+        id: 80,
+        numero: 80,
+        medida: "510.00m²",
+        estado: "vendido",
+        top: "89.2%",
+        left: "13.4%",
+        width: "53px",       
+        height: "29.3px",     
+        shape: "rectangle"      
+    }, {
+        id: 81,
+        numero: 81,
+        medida: "300 m²",
+        estado: "vendido", 
+        top: "51%", 
+        left: "23.8%", 
+        width: "48px",      
+        height: "29px",      
+        shape: "rectangle"       
+    },
+    {
+        id: 82,
+        numero: 82,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "56.5%",
+        left: "23.8%",
+        width: "48px",        
+        height: "29px",        
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 83,
+        numero: 83,
+        medida: "300 m²",
+        estado: "vendido", 
+        top: "61.9%", 
+        left: "23.8%", 
+        width: "48px",     
+        height: "29px",      
+        shape: "rectangle"      
+    },
+    {
+        id: 84,
+        numero: 84,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "67.4%",
+        left: "23.8%",
+        width: "48px",        
+        height: "29px",        
+        shape: "rectangle"    
+    }, {
+        id: 85,
+        numero: 85,
+        medida: "300 m²",
+        estado: "vendido", 
+        top: "72.8%", 
+        left: "23.8%", 
+        width: "48px",        
+        height: "29px",      
+        shape: "rectangle"     
+    },
+    {
+        id: 86,
+        numero: 86,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "78.3%",
+        left: "23.8%",
+        width: "48px",         
+        height: "29px",       
+        shape: "rectangle"      
+    },
+    {
+        id: 87,
+        numero: 87,
+        medida: "300 m²",
+        estado: "vendido", 
+        top: "83.7%", 
+        left: "23.8%",
+        width: "48px",       
+        height: "29px",       
+        shape: "rectangle"    
+    },
+    {
+        id: 88,
+        numero: 88,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "89.2%",
+        left: "23.8%",
+        width: "48px",    
+        height: "29px",     
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 89,
+        numero: 89,
+        medida: "300 m²",
+        estado: "disponible",
+        top: "51%", 
+        left: "27.6%", 
+        width: "48px",        
+        height: "29px",       
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 90,
+        numero: 90,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "56.48%",
+        left: "27.6%",
+        width: "48px",        
+        height: "29px",       
+        shape: "rectangle"       
+    }, {
+        id: 91,
+        numero: 91,
+        medida: "300 m²",
+        estado: "disponible", 
+        top: "61.9%", 
+        left: "27.6%", 
+        width: "48px",        
+        height: "29px",        
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 92,
+        numero: 92,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "67.4%",
+        left: "27.6%",
+        width: "48px",      
+        height: "29px",       
+        shape: "rectangle"        
+    }, {
+        id: 93,
+        numero: 93,
+        medida: "300 m²",
+        estado: "vendido", 
+        top: "72.9%", 
+        left: "27.6%", 
+        width: "48px",      
+        height: "29px",        
+        shape: "rectangle"       
+    },
+    {
+        id: 94,
+        numero: 94,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "78.3%",
+        left: "27.6%",
+        width: "48px",     
+        height: "29px",      
+        shape: "rectangle"      
+    }, {
+        id: 95,
+        numero: 95,
+        medida: "300 m²",
+        estado: "disponible", 
+        top: "83.7%", 
+        left: "27.6%", 
+        width: "48px",        
+        height: "29px",        
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote5.jpg",
+            "/src/assets/image-lote6.jpg",
+            "/src/assets/image-lote7.jpg",
+            "/src/assets/image-lote8.jpg",
+        ],
+    },
+    {
+        id: 96,
+        numero: 96,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "89.2%",
+        left: "27.6%",
+        width: "48px",         // ✅ nuevo
+        height: "29px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 97,
+        numero: 97,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "2.38%", // posición vertical sobre la imagen
+        left: "34.8%", // posición horizontal sobre la imagen
+        width: "43.95px",         // ✅ nuevo
+        height: "33px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 98,
+        numero: 98,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "8.6%",
+        left: "34.8%",
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 99,
+        numero: 99,
+        medida: "300 m²",
+        estado: "disponible", // o "vendido"
+        top: "14.8%", // posición vertical sobre la imagen
+        left: "34.8%", // posición horizontal sobre la imagen
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 100,
+        numero: 100,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "21.1%",
+        left: "34.8%",
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 101,
+        numero: 101,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "27.2%", // posición vertical sobre la imagen
+        left: "34.8%", // posición horizontal sobre la imagen
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 102,
+        numero: 102,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "33.5%",
+        left: "34.8%",
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 103,
+        numero: 103,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "39.6%", // posición vertical sobre la imagen
+        left: "34.8%", // posición horizontal sobre la imagen
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 104,
+        numero: 104,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "2.3%",
+        left: "38.4%",
+        width: "42.9px",         // ✅ nuevo
+        height: "33px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 105,
+        numero: 105,
+        medida: "300 m²",
+        estado: "disponible", // o "vendido"
+        top: "8.5%", // posición vertical sobre la imagen
+        left: "38.3%", // posición horizontal sobre la imagen
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 106,
+        numero: 106,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "15%",
+        left: "38.3%",
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 107,
+        numero: 107,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "21.1%", // posición vertical sobre la imagen
+        left: "38.3%", // posición horizontal sobre la imagen
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 108,
+        numero: 108,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "27.3%",
+        left: "38.3%",
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 109,
+        numero: 109,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "33.6%", // posición vertical sobre la imagen
+        left: "38.3%", // posición horizontal sobre la imagen
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 110,
+        numero: 110,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "39.8%",
+        left: "38.3%",
+        width: "43.95px",         // ✅ nuevo
+        height: "32.5px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 111,
+        numero: 111,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "2.2%", // posición vertical sobre la imagen
+        left: "44%", // posición horizontal sobre la imagen
+        width: "56px",         // ✅ nuevo
+        height: "30px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 112,
+        numero: 112,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "7.6%",
+        left: "44%",
+        width: "56px",
+        height: "29px",
+        shape: "rectangle"
+    }, {
+        id: 113,
+        numero: 113,
+        medida: "300 m²",
+        estado: "vendido",
+        top: "13%",
+        left: "44%",
+        width: "56px",
+        height: "30px",
+        shape: "rectangle"
+    },
+    {
+        id: 114,
+        numero: 114,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "18.5%",
+        left: "44%",
+        width: "56px",
+        height: "30px",
+        shape: "rectangle"
+    },
+    {
+        id: 115,
+        numero: 115,
+        medida: "300 m²",
+        estado: "disponible",
+        top: "24%",
+        left: "44%",
+        width: "56px",
+        height: "30px",
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 116,
+        numero: 116,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "29.4%",
+        left: "44%",
+        width: "56px",         // ✅ nuevo
+        height: "30px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 117,
+        numero: 117,
+        medida: "300 m²",
+        estado: "disponible", // o "vendido"
+        top: "35%", // posición vertical sobre la imagen
+        left: "44%", // posición horizontal sobre la imagen
+        width: "56px",         // ✅ nuevo
+        height: "30px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 118,
+        numero: 118,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "40.3%",
+        left: "44%",
+        width: "56px",         // ✅ nuevo
+        height: "30px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 119,
+        numero: 119,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "2.1%", // posición vertical sobre la imagen
+        left: "48.36%", // posición horizontal sobre la imagen
+        width: "56px",         // ✅ nuevo
+        height: "30px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 120,
+        numero: 120,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "7.53%",
+        left: "48.4%",
+        width: "56px",         // ✅ nuevo
+        height: "30px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 121,
+        numero: 121,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "13%", // posición vertical sobre la imagen
+        left: "48.45%", // posición horizontal sobre la imagen
+        width: "56px",         // ✅ nuevo
+        height: "30px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 122,
+        numero: 122,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "18.5%",
+        left: "48.45%",
+        width: "56px",         // ✅ nuevo
+        height: "30px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 123,
+        numero: 123,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "23.9%", // posición vertical sobre la imagen
+        left: "48.45%", // posición horizontal sobre la imagen
+        width: "56px",         // ✅ nuevo
+        height: "30px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 124,
+        numero: 124,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "29.4%",
+        left: "48.45%",
+        width: "56px",         // ✅ nuevo
+        height: "29.7px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 125,
+        numero: 125,
+        medida: "300 m²",
+        estado: "disponible", // o "vendido"
+        top: "34.7%", // posición vertical sobre la imagen
+        left: "48.45%", // posición horizontal sobre la imagen
+        width: "56px",         // ✅ nuevo
+        height: "30px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 126,
+        numero: 126,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "40.3%",
+        left: "48.45%",
+        width: "56px",         // ✅ nuevo
+        height: "30px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 127,
+        numero: 127,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "2.22%", // posición vertical sobre la imagen
+        left: "55%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 128,
+        numero: 128,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "7.55%",
+        left: "55%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 129,
+        numero: 129,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "13%", // posición vertical sobre la imagen
+        left: "55%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 130,
+        numero: 130,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "18.5%",
+        left: "55%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 131,
+        numero: 131,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "24%", // posición vertical sobre la imagen
+        left: "55%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 132,
+        numero: 132,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "29.5%",
+        left: "55%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 134,
+        numero: 134,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "34.9%", // posición vertical sobre la imagen
+        left: "55%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 135,
+        numero: 135,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "40.34%",
+        left: "55%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 136,
+        numero: 136,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "2.2%", // posición vertical sobre la imagen
+        left: "59.1%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 137,
+        numero: 137,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "7.6%",
+        left: "59.1%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 138,
+        numero: 138,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "12.9%", // posición vertical sobre la imagen
+        left: "59.14%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 139,
+        numero: 139,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "18.5%",
+        left: "59.1%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 140,
+        numero: 140,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "23.9%", // posición vertical sobre la imagen
+        left: "59.1%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 141,
+        numero: 141,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "29.38%",
+        left: "59.1%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 142,
+        numero: 142,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "34.85%", // posición vertical sobre la imagen
+        left: "59.1%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 143,
+        numero: 143,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "40.35%",
+        left: "59.1%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 144,
+        numero: 144,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "2.2%", // posición vertical sobre la imagen
+        left: "65.45%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 145,
+        numero: 145,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "7.55%",
+        left: "65.45%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 146,
+        numero: 146,
+        medida: "300 m²",
+        estado: "disponible", // o "vendido"
+        top: "13%", // posición vertical sobre la imagen
+        left: "65.45%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 147,
+        numero: 147,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "18.5%",
+        left: "65.45%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 148,
+        numero: 148,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "23.88%", // posición vertical sobre la imagen
+        left: "65.45%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 149,
+        numero: 149,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "29.36%",
+        left: "65.45%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 150,
+        numero: 150,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "34.8%", // posición vertical sobre la imagen
+        left: "65.45%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 151,
+        numero: 151,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "40.25%",
+        left: "65.45%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 152,
+        numero: 152,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "2.1%", // posición vertical sobre la imagen
+        left: "69.58%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 153,
+        numero: 153,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "7.55%",
+        left: "69.58%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 154,
+        numero: 154,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "13%", // posición vertical sobre la imagen
+        left: "69.58%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 155,
+        numero: 155,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "18.5%",
+        left: "69.58%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 156,
+        numero: 156,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "23.9%", // posición vertical sobre la imagen
+        left: "69.58%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 157,
+        numero: 157,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "29.36%",
+        left: "69.58%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 158,
+        numero: 158,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "34.8%", // posición vertical sobre la imagen
+        left: "69.58%", // posición horizontal sobre la imagen
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 159,
+        numero: 159,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "40.3%",
+        left: "69.58%",
+        width: "53px",         // ✅ nuevo
+        height: "28.8px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 160,
+        numero: 160,
+        medida: "300 m²",
+        estado: "disponible", // o "vendido"
+        top: "53.9%", // posición vertical sobre la imagen
+        left: "34.8%", // posición horizontal sobre la imagen
+        width: "45px",         // ✅ nuevo
+        height: "36.6px",        // ✅ nuevo
+        shape: "corner-top-left",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 161,
+        numero: 161,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "60.9%",
+        left: "34.85%",
+        width: "44.2px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 162,
+        numero: 162,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "67.5%", // posición vertical sobre la imagen
+        left: "34.85%", // posición horizontal sobre la imagen
+        width: "44.2px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 163,
+        numero: 163,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "74.3%",
+        left: "34.85%",
+        width: "44.2px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 164,
+        numero: 164,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "81.1%", // posición vertical sobre la imagen
+        left: "34.85%", // posición horizontal sobre la imagen
+        width: "44.2px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 165,
+        numero: 165,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "87.9%",
+        left: "34.85%",
+        width: "44.2px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 166,
+        numero: 166,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "53.9%", // posición vertical sobre la imagen
+        left: "38.3%", // posición horizontal sobre la imagen
+        width: "44.2px",         // ✅ nuevo
+        height: "36.5px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 167,
+        numero: 167,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "60.8%",
+        left: "38.3%",
+        width: "44.2px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 168,
+        numero: 168,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "67.6%", // posición vertical sobre la imagen
+        left: "38.3%", // posición horizontal sobre la imagen
+        width: "44.2px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 169,
+        numero: 169,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "74.35%",
+        left: "38.3%",
+        width: "44.2px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 170,
+        numero: 170,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "81.1%", // posición vertical sobre la imagen
+        left: "38.3%", // posición horizontal sobre la imagen
+        width: "44.2px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 171,
+        numero: 171,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "87.9%",
+        left: "38.3%",
+        width: "44.2px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 172,
+        numero: 172,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "53.9%", // posición vertical sobre la imagen
+        left: "44.1%", // posición horizontal sobre la imagen
+        width: "56.5px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 173,
+        numero: 173,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "59.9%",
+        left: "44.1%",
+        width: "56.5px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 174,
+        numero: 174,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "65.5%", // posición vertical sobre la imagen
+        left: "44.1%", // posición horizontal sobre la imagen
+        width: "56.5px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 175,
+        numero: 175,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "71.3%",
+        left: "44.1%",
+        width: "56px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 176,
+        numero: 176,
+        medida: "300 m²",
+        estado: "vendido", // o "vendido"
+        top: "77%", // posición vertical sobre la imagen
+        left: "44.1%", // posición horizontal sobre la imagen
+        width: "56px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 177,
+        numero: 177,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "82.89%",
+        left: "44.1%",
+        width: "56px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    }, {
+        id: 178,
+        numero: 178,
+        medida: "300 m²",
+        estado: "disponible", // o "vendido"
+        top: "88.62%", // posición vertical sobre la imagen
+        left: "44.1%", // posición horizontal sobre la imagen
+        width: "56px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 179,
+        numero: 179,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "53.9%",
+        left: "48.45%",
+        width: "56px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    }, {
+        id: 180,
+        numero: 180,
+        medida: "300 m²",
+        estado: "disponible", // o "vendido"
+        top: "59.7%", // posición vertical sobre la imagen
+        left: "48.45%", // posición horizontal sobre la imagen
+        width: "56px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 181,
+        numero: 181,
+        medida: "340 m²",
+        estado: "vendido",
+        top: "65.45%",
+        left: "48.45%",
+        width: "56px",
+        height: "31px",
+        shape: "rectangle"  // nueva clase para indicar estilo
+    },
+    {
+        id: 182,
+        numero: 182,
+        medida: "400 m²",
+        estado: "vendido",
+        top: "71.3%",
+        left: "48.45%",
+        width: "56px",
+        height: "31px",
+        shape: "rectangle"
+    },
+    {
+        id: 183,
+        numero: 183,
+        medida: "340 m²",
+        estado: "vendido",
+        top: "77%",
+        left: "48.45%",
+        width: "56px",
+        height: "31px",
+        shape: "rectangle"  // nueva clase para indicar estilo
+    },
+    {
+        id: 184,
+        numero: 184,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "82.75%",
+        left: "48.45%",
+        width: "56px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote5.jpg",
+            "/src/assets/image-lote6.jpg",
+            "/src/assets/image-lote7.jpg",
+            "/src/assets/image-lote8.jpg",
+        ],
+    },
+    {
+        id: 185,
+        numero: 185,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "88.7%",
+        left: "48.45%",
+        width: "56px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 186,
+        numero: 186,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "53.8%",
+        left: "55%",
+        width: "55.1px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 187,
+        numero: 187,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "59.68%",
+        left: "55%",
+        width: "55.1px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 188,
+        numero: 188,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "65.4%",
+        left: "55%",
+        width: "55.1px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 189,
+        numero: 189,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "71.2%",
+        left: "55%",
+        width: "55.1px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 190,
+        numero: 190,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "76.95%",
+        left: "55%",
+        width: "55.1px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 191,
+        numero: 191,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "82.65%",
+        left: "55.1%",
+        width: "52.5px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 192,
+        numero: 192,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "88.6%",
+        left: "55.1%",
+        width: "52.5px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 193,
+        numero: 193,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "53.7%",
+        left: "59.2%",
+        width: "52.5px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 194,
+        numero: 194,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "59.7%",
+        left: "59.2%",
+        width: "52.5px",         // ✅ nuevo
+        height: "31px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 195,
+        numero: 195,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "65.44%",
+        left: "59.2%",
+        width: "52.5px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 196,
+        numero: 196,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "71.2%",
+        left: "59.2%",
+        width: "52.5px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 197,
+        numero: 197,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "76.95%",
+        left: "59.2%",
+        width: "52.5px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 198,
+        numero: 198,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "82.7%",
+        left: "59.2%",
+        width: "52.5px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 199,
+        numero: 199,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "88.6%",
+        left: "59.2%",
+        width: "52.5px",         // ✅ nuevo
+        height: "31.2px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 200,
+        numero: 200,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "53.9%",
+        left: "65.45%",
+        width: "44.9px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 201,
+        numero: 201,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "60.7%",
+        left: "65.45%",
+        width: "44.9px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 202,
+        numero: 202,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "67.4%",
+        left: "65.45%",
+        width: "44.9px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 203,
+        numero: 203,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "74.15%",
+        left: "65.45%",
+        width: "44.9px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 204,
+        numero: 204,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "80.9%",
+        left: "65.45%",
+        width: "44.9px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 205,
+        numero: 205,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "87.7%",
+        left: "65.45%",
+        width: "44.9px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 206,
+        numero: 206,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "53.7%",
+        left: "69%",
+        width: "45px",         // ✅ nuevo
+        height: "36.6px",        // ✅ nuevo
+        shape: "corner-top-right"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 207,
+        numero: 207,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "60.7%",
+        left: "69%",
+        width: "44.9px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 208,
+        numero: 208,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "67.4%",
+        left: "69%",
+        width: "44.9px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 209,
+        numero: 209,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "74.2%",
+        left: "69%",
+        width: "44.9px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 210,
+        numero: 210,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "80.8%",
+        left: "69%",
+        width: "44.9px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 211,
+        numero: 211,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "87.7%",
+        left: "69%",
+        width: "44.9px",         // ✅ nuevo
+        height: "35.6px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 212,
+        numero: 212,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "2.1%",
+        left: "75.9%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 213,
+        numero: 213,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "7.6%",
+        left: "75.9%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 214,
+        numero: 214,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "13%",
+        left: "75.9%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 215,
+        numero: 215,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "18.5%",
+        left: "75.9%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 216,
+        numero: 216,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "23.9%",
+        left: "75.9%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 217,
+        numero: 217,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "29.5%",
+        left: "75.9%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 218,
+        numero: 218,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "34.8%",
+        left: "75.9%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 219,
+        numero: 219,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "40.2%",
+        left: "75.9%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 220,
+        numero: 220,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "2.1%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 221,
+        numero: 221,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "7.6%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 222,
+        numero: 222,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "12.9%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 223,
+        numero: 223,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "18.5%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 224,
+        numero: 224,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "24%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 225,
+        numero: 225,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "29.4%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 226,
+        numero: 226,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "35%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 227,
+        numero: 227,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "40.34%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 228,
+        numero: 228,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "50.84%",
+        left: "75.95%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 229,
+        numero: 229,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "56.35%",
+        left: "75.95%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 230,
+        numero: 230,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "61.7%",
+        left: "75.95%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 231,
+        numero: 231,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "67.2%",
+        left: "75.95%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 232,
+        numero: 232,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "72.5%",
+        left: "75.95%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 233,
+        numero: 233,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "78%",
+        left: "75.95%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 234,
+        numero: 234,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "83.5%",
+        left: "75.95%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 235,
+        numero: 235,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "89%",
+        left: "75.95%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 236,
+        numero: 236,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "50.7%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 237,
+        numero: 237,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "56.2%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 238,
+        numero: 238,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "61.7%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 239,
+        numero: 239,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "67.15%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 240,
+        numero: 240,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "72.7%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 241,
+        numero: 241,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "78.1%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 242,
+        numero: 242,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "83.5%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 243,
+        numero: 243,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "89.1%",
+        left: "80%",
+        width: "53px",         // ✅ nuevo
+        height: "28px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 244,
+        numero: 244,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "2.1%",
+        left: "86.3%",
+        width: "38px",         // ✅ nuevo
+        height: "44.8px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 245,
+        numero: 245,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "10.3%",
+        left: "86.3%",
+        width: "38px",         // ✅ nuevo
+        height: "37px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 246,
+        numero: 246,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "17.2%",
+        left: "86.3%",
+        width: "38px",         // ✅ nuevo
+        height: "37px",        // ✅ nuevo
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 247,
+        numero: 247,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "23.9%",
+        left: "86.3%",
+        width: "46.8px",         // ✅ nuevo
+        height: "28.5px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 248,
+        numero: 248,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "29.3%",
+        left: "86.3%",
+        width: "46.8px",         // ✅ nuevo
+        height: "28.5px",        // ✅ nuevo
+        shape: "rectangle"        // puede ser "circle", "rectangle", "triangle"
+    },
+    {
+        id: 249,
+        numero: 249,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "34.7%",
+        left: "86.3%",
+        width: "46.8px",
+        height: "28.5px",
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 250,
+        numero: 250,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "40.3%",
+        left: "86.35%",
+        width: "46.8px",
+        height: "28.5px",
+        shape: "rectangle"
+    },
+    {
+        id: 251,
+        numero: 251,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "2.2%",
+        left: "89.3%",
+        width: "41px",
+        height: "44.9px",
+        shape: "lote-diagonal"
+    },
+    {
+        id: 252,
+        numero: 252,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "10.5%",
+        left: "89.3%",
+        width: "48px",
+        height: "36px",
+        shape: "lote-diagonal"
+    },
+    {
+        id: 253,
+        numero: 253,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "17.2%",
+        left: "89.3%",
+        width: "52.8px",
+        height: "35.5px",
+        shape: "lote-diagonal"
+    },
+    {
+        id: 254,
+        numero: 254,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "23.7%",
+        left: "89.95%",
+        width: "50px",
+        height: "30px",
+        shape: "lote-diagonal",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 255,
+        numero: 255,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "29.1%",
+        left: "89.95%",
+        width: "55px",
+        shape: "lote-diagonal"
+    },
+    {
+        id: 256,
+        numero: 256,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "34.6%",
+        left: "89.95%",
+        width: "59.6px",
+        height: "30px",
+        shape: "lote-diagonal"
+    },
+    {
+        id: 257,
+        numero: 257,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "40.05%",
+        left: "89.95%",
+        width: "66px",
+        height: "30px",
+        shape: "lote-diagonal"
+    },
+    {
+        id: 258,
+        numero: 258,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "50.5%",
+        left: "86.35%",
+        width: "26px",
+        height: "63px",
+        shape: "rectangle"
+    },
+    {
+        id: 259,
+        numero: 259,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "50.5%",
+        left: "88.49%",
+        width: "26px",
+        height: "63px",
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 260,
+        numero: 260,
+        medida: "320 m²",
+        estado: "disponible",
+        top: "50.5%",
+        left: "90.64%",
+        width: "26px",
+        height: "63px",
+        shape: "rectangle",
+        fotos: [
+            "/src/assets/image-lote1.jpg",
+            "/src/assets/image-lote2.jpg",
+            "/src/assets/image-lote3.jpg",
+            "/src/assets/image-lote4.jpg",
+        ],
+    },
+    {
+        id: 261,
+        numero: 261,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "50.6%",
+        left: "92.7%",
+        width: "37px",
+        height: "63px",
+        shape: "lote-diagonal"
+    },
+    {
+        id: 262,
+        numero: 262,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "61.48%",
+        left: "86.4%",
+        width: "68px",
+        height: "30px",
+        shape: "rectangle"
+    },
+    {
+        id: 263,
+        numero: 263,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "61.49%",
+        left: "91.55%",
+        width: "62px",
+        height: "30px",
+        shape: "lote-diagonal"
+    },
+    {
+        id: 264,
+        numero: 264,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "66.9%",
+        left: "86.4%",
+        width: "68px",
+        height: "30px",
+        shape: "rectangle"
+    },
+    {
+        id: 265,
+        numero: 265,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "66.9%",
+        left: "91.6%",
+        width: "67.9px",
+        height: "30px",
+        shape: "lote-diagonal"
+    },
+    {
+        id: 266,
+        numero: 266,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "72.4%",
+        left: "86.4%",
+        width: "67.5px",
+        height: "30px",
+        shape: "rectangle"
+    },
+    {
+        id: 267,
+        numero: 267,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "72.4%",
+        left: "91.6%",
+        width: "72px",
+        height: "30px",
+        shape: "lote-diagonal"
+    },
+    {
+        id: 268,
+        numero: 268,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "77.8%",
+        left: "86.4%",
+        width: "67.5px",
+        height: "29px",
+        shape: "rectangle"
+    },
+    {
+        id: 269,
+        numero: 269,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "77.8%",
+        left: "91.6%",
+        width: "77px",
+        height: "30px",
+        shape: "lote-diagonal"
+    },
+    {
+        id: 270,
+        numero: 270,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "83.2%",
+        left: "86.4%",
+        width: "25px",
+        height: "63px",
+        shape: "rectangle"
+    },
+    {
+        id: 271,
+        numero: 271,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "83.2%",
+        left: "88.45%",
+        width: "25px",
+        height: "63px",
+        shape: "rectangle"
+    },
+    {
+        id: 272,
+        numero: 272,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "83.2%",
+        left: "90.5%",
+        width: "25px",
+        height: "63px",
+        shape: "rectangle"
+    },
+    {
+        id: 273,
+        numero: 273,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "83.2%",
+        left: "92.5%",
+        width: "25px",
+        height: "63px",
+        shape: "rectangle"
+    },
+    {
+        id: 274,
+        numero: 273,
+        medida: "320 m²",
+        estado: "vendido",
+        top: "83.3%",
+        left: "94.5%",
+        width: "42px",
+        height: "62px",
+        shape: "lote-diagonal"
+    }
+];
+
+export default lotesData;

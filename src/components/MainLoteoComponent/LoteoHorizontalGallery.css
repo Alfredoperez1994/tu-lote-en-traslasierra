@@ -1,0 +1,62 @@
+.loteo-horizontal-gallery {
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.loteo-horizontal-gallery__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+    color: #1a1a1a;
+}
+
+.loteo-horizontal-gallery__container {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    scrollbar-width: thin;
+    scrollbar-color: #999 transparent;
+}
+
+/* Scrollbar para navegadores basados en Webkit */
+.loteo-horizontal-gallery__container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.loteo-horizontal-gallery__container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.loteo-horizontal-gallery__item {
+    flex: 0 0 auto;
+    width: 400px;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #A77E58;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.loteo-horizontal-gallery__item:hover {
+    transform: scale(1.05);
+}
+
+.loteo-horizontal-gallery__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.loteo-horizontal-gallery__caption {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #444;
+}

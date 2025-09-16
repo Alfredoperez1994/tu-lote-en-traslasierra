@@ -1,0 +1,154 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 1rem;
+}
+
+.hero__background--image {
+    background-image: url("/src/assets/hero-image.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    transform: scale(1.05);
+    /* sutil zoom para modernidad */
+}
+
+.hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    /* un poco más oscuro para legibilidad */
+    z-index: -1;
+}
+
+.hero__content {
+    z-index: 2;
+    max-width: 800px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.hero__sticker {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+   background-color: orange;
+    color: black;
+    padding: 0.6rem 1.2rem;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    animation: pulse 2.5s infinite ease-in-out;
+    z-index: 10;
+}
+
+
+.hero__title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero__title--highlight {
+    color: #f7f7f7;
+    /* un tono cálido que resalte */
+    font-style: italic;
+}
+
+.hero__subtitle {
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.hero__subtitle--strong {
+    font-weight: 700;
+    color: #fff;
+}
+
+.hero__subtitle--italic {
+    font-style: italic;
+    color: #f6d365;
+}
+
+.hero__cta {
+    font-size: 1.1rem;
+    padding: 0.9rem 2rem;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #f6d365, #A77E58);
+    color: #222;
+    font-weight: 700;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero__cta:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.hero__fade-bottom {
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(to top, #f7f7f7 0%, transparent 85%);
+    z-index: 1;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero__sticker {
+        top: 10px;
+        right: 50%;
+        transform: translateX(50%);
+        font-size: 0.85rem;
+        padding: 0.4rem 0.9rem;
+    }
+}
+
+/* 📱 Responsive ajustes */
+@media (max-width: 768px) {
+    .hero__content {
+        gap: 1rem;
+    }
+
+    .hero__title {
+        font-size: 2rem;
+    }
+
+    .hero__subtitle {
+        font-size: 1rem;
+    }
+
+    .hero__cta {
+        width: 100%;
+        font-size: 1rem;
+    }
+}

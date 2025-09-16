@@ -1,0 +1,147 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    background-color: transparent;
+    transition: background-color .4s ease, box-shadow .4s ease,
+        opacity .25s ease, transform .25s ease;
+    /* ⛔️ Oculto por defecto (sin scroll) */
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+}
+
+.navbar--visible {
+    /* ✅ Aparece cuando hay scroll o menú abierto */
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.navbar--scrolled {
+    background-color: #F7F1E3;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+}
+
+.navbar__left,
+.navbar__right {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.icon-button {
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.navbar__icon {
+    cursor: pointer;
+    color: #2e7d32;
+    transition: color .3s ease;
+    width: 40px;
+    height: 30px;
+}
+
+.navbar__icon:hover {
+    color: #ee8530;
+}
+
+.navbar__center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__logo {
+    height: 50px;
+    transition: opacity .3s ease;
+    opacity: 1;
+}
+
+/* Menú móvil lateral */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 15%;
+    height: 17.5vh;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, .1);
+    transition: left .3s ease;
+    z-index: 1000;
+    padding-top: 80px;
+}
+
+.mobile-menu.open {
+    left: 0;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-menu li {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.mobile-menu a {
+    color: #F5F3EF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.mobile-menu a:hover {
+    color: #ee8530;
+}
+
+.mobile-menu__close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: #F5F3EF;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        padding: .75rem 1rem;
+    }
+
+    .navbar__logo {
+        height: 32px;
+    }
+
+    /* Sugerencia: menú más ancho en mobile (opcional) */
+    .mobile-menu {
+        width: 80%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .85);
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: .5rem .5rem;
+    }
+}

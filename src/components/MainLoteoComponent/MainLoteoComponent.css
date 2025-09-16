@@ -1,0 +1,16 @@
+.main-loteo {
+  background-color: #F7F1E3; /* fondo minimalista neutro */
+  padding: 4rem 2rem;
+}
+
+.main-loteo__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-loteo__plano {
+  margin-top: 4rem;
+  display: block; 
+  width: 100%;
+  overflow-x: auto;
+}
